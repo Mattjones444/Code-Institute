@@ -1,67 +1,93 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
 /* General Rules*/
 
 
 body {
     font-family: Roboto, sans-serif;
-    color: #00000;
+    color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 /* Nav bar and header*/
 
-.navbar{
-        background-color:#3a5362;
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#3a5362;
+    height: 4em;
+    padding: 0 4%;
+    border-bottom: 2px solid #dfdfdf;
+    border:0;
+    
 }
 
-a.nav-link{
-            color:#fff;
-                       
+
+li{
+    display:inline-block;
+    padding:20px;
+    
 }
 
-.nav-link-signup{
-                 margin-right:20px;
+
+a{
+    color:#F3E8E7;
+    font-family: 'Nanum Gothic',
+            sans-serif;
+    text-decoration:none;
+    font-size:18px;
 }
 
-.navbar-brand{
-              padding-right:100px;
+a:hover{
+        color:#B7A5A4;
 }
+
+.signup{
+         padding-right:20px;
+}
+
+.login{
+                background-color:#3a5362;
+                    border:1px;
+                    color: #F3E8E7;
+                    padding: 10px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: 4px 2px;
+                    border-radius:15px;
+}
+
+.login:hover{color: #B7A5A4;
+             
+}
+
 
 /* Hero Image*/
 
-#hero-image{
-            height:400px;
-            max-width:100%;
-            background: url("../images/heroimage.jpeg") no-repeat center center;
-            background-size:cover;
-            
+.hero-image{
+           background: url("../images/heroimage.jpeg") no-repeat center center;
+           width:100%;
+           height:25em;
+           background-size:cover;
+           
 }
 
-#cover-text,
-#cover-text h2 {
-    color: #ffffff;
-}
 
-#cover-text {
-    font-size: 130%;
-    font-family: Oswald;
-    text-transform: uppercase;
-    letter-spacing: 4px;
 
-    width: 300px;
-    height: 200px;
 
-    padding-top: 40px;
-    padding-left: 10px;
 
-    background-color: rgba(241, 109, 107, .7);
+/* Social Links*/
 
-    bottom: 30px;
-    right: 150px;
 
-    position: absolute;
-
-}
 
 
 
