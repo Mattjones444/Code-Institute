@@ -81,6 +81,61 @@ a:hover{
            
 }
 
+.jumbotron {
+    padding: 30px;
+    /* fills out the jumbotron */
+    background-color: transparent;
+}
+
+.container {
+    width: 300px;
+    
+    /* specify a width */
+    /* centers the container */
+    padding: 0 15px;
+    /* adds some padding to the left and right*/
+}
+
+.jumbotron .container {
+    max-width: 300px;
+    max-height:200px;
+    position:relative;
+    left:300px;
+    top:50px;
+    padding-bottom:20px;
+    background-color:transparent;
+    padding-top:20px;
+    
+    /* allows the jumbotron to adjust on smaller widths */
+    
+}
+
+.jumbotron h1 {
+    text-align: center;
+    /* centers the heading */
+    color: #F3E8E7;
+    font-family: 'Nanum Gothic',
+        sans-serif;
+    font-weight: 100;
+    font-size:35px;
+    text-transform: uppercase;
+    mix-blend-mode:difference;
+    padding-bottom:20px;
+}
+
+.learn-more-button{background:#3a5362;
+                   padding-top:10px;
+                   padding-bottom:10px;
+                   width: 110px;
+                   height: 50px;
+                   border-radius: 20px;
+                   color:#F3E8E7;
+                   font-size:16px;
+
+       
+       
+}
+
 
 
 
