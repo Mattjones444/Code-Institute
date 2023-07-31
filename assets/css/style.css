@@ -16,61 +16,31 @@ body {
 
 /* Nav bar and header*/
 
-.top-nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color:#3a5362;
-    height: 4em;
-    padding: 0 4%;
-    border-bottom: 2px solid #dfdfdf;
-    border:0;
-    
+.bg-body-tertiary{ background-color:#1d2e40 !important;}
+
+a.nav-link{
+           color:#F3E8E7 !important;
+           font-size:22px;
+           font-family:'nanum-gothic', sans-serif;
+           
 }
 
-
-li{
-    display:inline-block;
-    padding:20px;
-    
+a.navbar-brand{color:#F3E8E7 !important;
+              font-family:'nanum-gothic', sans-serif !important;
+              font-size:25px;
+              max-width:65%;
 }
 
-
-a{
-    color:#F3E8E7;
-    font-family: 'Nanum Gothic',
-            sans-serif;
-    text-decoration:none;
-    font-size:18px;
+.navbar-brand:hover{ color:#ae9092 !important; 
+           
 }
 
-a:hover{
-        color:#B7A5A4;
+li a:hover { color:#ae9092 !important; 
 }
 
-.signup{
-         padding-right:20px;
+.navbar{
+        min-width:255px;
 }
-
-.login{
-                background-color:#3a5362;
-                    border:1px;
-                    color: #F3E8E7;
-                    padding: 10px;
-                    text-align: center;
-                    text-decoration: none;
-                    display: inline-block;
-                    font-size: 16px;
-                    margin: 4px 2px;
-                    border-radius:15px;
-}
-
-.login:hover{color: #B7A5A4;
-             
-}
-
-
 /* Hero Image*/
 
 .hero-image{
@@ -81,68 +51,88 @@ a:hover{
            
 }
 
-.jumbotron {
-    padding: 30px;
-    /* fills out the jumbotron */
-    background-color: transparent;
+.display-4{
+                font-size:25px;
+                
 }
 
-.container {
-    width: 300px;
-    
-    /* specify a width */
-    /* centers the container */
-    padding: 0 15px;
-    /* adds some padding to the left and right*/
+.btn{background-color:#1d2e40; 
+     
+                         
 }
 
-.jumbotron .container {
-    max-width: 300px;
-    max-height:200px;
-    position:relative;
-    left:300px;
-    top:50px;
-    padding-bottom:20px;
-    background-color:transparent;
-    padding-top:20px;
-    
+.message{width:150px;
+         height:120px;
+         position:relative;
+         left:50px;
+         top:100px;
+         font-family:'nanum-gothic', sans-serif;
+}
     /* allows the jumbotron to adjust on smaller widths */
-    
-}
 
-.jumbotron h1 {
-    text-align: center;
-    /* centers the heading */
-    color: #F3E8E7;
-    font-family: 'Nanum Gothic',
-        sans-serif;
-    font-weight: 100;
-    font-size:35px;
-    text-transform: uppercase;
-    mix-blend-mode:difference;
-    padding-bottom:30px;
-}
 
-.learn-more-button{background:#3a5362;
-                   padding-top:10px;
-                   padding-bottom:10px;
-                   width: 110px;
-                   height: 50px;
-                   border-radius: 20px;
-                   color:#F3E8E7;
-                   font-size:16px;
-                   position:relative;
-                   left:75px;
-                   padding-left:20px;
-                padding-right: 20px;
-
-       
-       
-}
 
 
 
 /* Quick Explainer*/
+
+#welcome{
+                 color:#000000;
+                 text-align:center;
+}
+
+.who-we-are{
+            color:#000000;
+            text-align:right;
+            margin-right:20px;
+            margin-top:20px;
+}
+
+.what-we-do-image{ max-width:100%;
+                   height:auto;
+                   margin-top:30px;
+                   display:contain;
+}
+
+
+
+
+   
+
+
+                                          
+
+
+
+
+
+/* Social Links*/
+
+
+/* media queries*/
+
+
+/*Small Screen Adjustments*/
+
+
+
+/*Large Screen Adjustments*/
+
+@media only screen and (min-width: 992px){
+.display-4{
+         width:300px;
+         height:200px;
+         position:relative;
+         left:100px;
+         top:50px;
+         font-size:40px;}
+
+
+.btn{position:relative;
+                        left:140px;
+                        bottom:50px;
+      
+}
 
 #explainer {
     height: 400px;
@@ -200,43 +190,12 @@ hr {
             sans-serif;
 }
 
-#welcome {
-    margin: 20px 0;
-    text-align: center;
-    color:#000000;
-    font-size: 230%;
-    font-family: 'Nanum Gothic',
-            sans-serif;
-}
-
-#circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #cccccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-#circle-cover-bg {
-    background: url('/assets/images/Explainerphoto1.jpeg') no-repeat center center;
-    height:100%;
-    border-radius: 50%;
-    background-size:cover;
-
-}
-   
-
-
-                                          
 
 
 
 
 
-/* Social Links*/
+
 
 
 
