@@ -59,7 +59,7 @@ li a:hover {
 
 .display-4 {
     font-size: 25px;
-    color:#F3E8E7;
+    color: #F3E8E7;
 
 }
 
@@ -78,20 +78,15 @@ li a:hover {
     font-family: 'nanum-gothic', sans-serif;
 }
 
-/* allows the jumbotron to adjust on smaller widths */
-
-
-
-
-
 /* Quick Explainer*/
 
 #welcome {
-          color:#000000;
+    color: #000000;
 }
 
+
 #club-ethos {
-    height: 600px;
+    height: 200px;
 }
 
 #left-about {
@@ -116,6 +111,7 @@ hr {
     width: 100%;
     margin: 5px 0;
 }
+
 
 .left-about-heading {
     width: 50%;
@@ -158,18 +154,15 @@ hr {
     background: url('/assets/images/Explainerphoto1.jpeg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
-    background-size:cover;
+    background-size: cover;
 }
 
+/* Why online tutoring video section*/
 
-
-
-
-
-
-
-
-
+#why-online {
+    clear: both;
+    background-color: aquamarine;
+}
 
 
 
@@ -180,9 +173,6 @@ hr {
 
 
 /*Small Screen Adjustments*/
-@media only screen and (min-width: 576px) {
-    
-
 
 
 /*Large Screen Adjustments*/
@@ -260,3 +250,4 @@ hr {
         font-family: 'Nanum Gothic',
             sans-serif;
     }
+}
