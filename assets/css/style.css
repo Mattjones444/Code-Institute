@@ -160,15 +160,17 @@ hr {
 /* Why online tutoring video section*/
 
 #why-online {
+    background-color: #1d2e40;
     clear: both;
-    background-color: aquamarine;
+}
+
+.why-online-tutoring {
+    color: #F3E8E7;
+    text-align: center;
 }
 
 
-
 /* Social Links*/
-
-
 /* media queries*/
 
 
