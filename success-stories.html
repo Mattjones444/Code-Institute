@@ -5,25 +5,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <title>English Writing Academy</title>
 </head>
 
 <body>
     <!--Header and Nav section-->
-    <header>
-        <nav class="top-nav sticky">
-            <a href="#">
-                <h1 id="logo" class="gradient">English Writing Academy</h1>
-            </a>
-            <ul class="menu">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="#" class="active">Success Stories</a></li>
-                <li><a href="#" class="active signup">Sign Up</a></li>
-                <button type="button" class="login">Login</button>
-            </ul>
-        </nav>
-    </header>
+    <nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">English Writing Academy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="success-stories.html">Success Stories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="signup.html">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Hero Image and Call out button-->
     <section>
+        <div class="jumbotron">
+            <div class="hero-image">
+                <div class="message">
+                    <h2 class="display-4">Help your child to love writing</h2>
+                    <a class="btn btn-primary btn-lg more-button" href="#" role="button">Learn more</a>
+                </div>
+            </div>
+    </section>
+    <!--Key Benefits-->
+    <section id="key-benefits">
+        <div id="benefits-section">
+            <div class="row">
+                <div class="col key-benefits">
+                    <h2 class="key-benefits-header">Adaptive, flexible, on demand tutoring that works for you</h2>
+                    <div class="container text-center">
+                        <div class="row row-cols-2">
+                            <div class="col benefits">
+                                <div class="benefits-icon">
+                                    <i class="fas fa-running"></i>
+                                </div>
+                                <h3 class="benefits-heading">Flexible support that works
+                                    around you</h3>
+                                <p class="benefits-info">Life can be busy, so why not choose tutoring that fits around
+                                    your schedule?</p>
+                            </div>
+                            <div class="col benefits">
+                                <div class="benefits-icon">
+                                    <i class="fas fa-hand-point-right"></i>
+                                </div>
+                                <h3 class="benefits-heading">On demand access to tutoring support</h3>
+                                <p class="benefits-info"></p>
+                            </div>
+                            <div class="col benefits">
+                                <div class="benefits-icon">
+                                    <i class="fas fa-chalkboard-teacher"></i>
+                                </div>
+                                <h3 class="benefits-heading">Flexible support that works
+                                    around you</h3>
+                                <p class="benefits-info">Life can be busy, so why not choose tutoring that fits around
+                                    you?</p>
+                            </div>
+                            <div class="col benefits">
+                                <div class="benefits-icon">
+                                    <i class="fas fa-book-open"></i>
+                                </div>
+                                <h3 class="benefits-heading">Flexible support that works
+                                    around you</h3>
+                                <p class="benefits-info">Life can be busy, so why not choose tutoring that fits around
+                                    you?</p>
+                            </div>
+                        </div>
+                    </div>
 
+                </div>
+                <div class="col key-benefits">
+                    <img class="tutor-image" src="/assets/images/Online tutoring.jpeg" alt="personbeingtutored">
+                </div>
+            </div>
+        </div>
     </section>

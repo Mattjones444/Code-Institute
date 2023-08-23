@@ -59,7 +59,7 @@ li a:hover {
 }
 
 .display-4 {
-    font-size: 25px;
+    font-size: 30px;
     color: #F3E8E7;
 
 }
@@ -74,10 +74,11 @@ li a:hover {
     width: 150px;
     height: 120px;
     position: relative;
-    left: 50px;
+    left: 70px;
     top: 100px;
     font-family: 'nanum-gothic', sans-serif;
 }
+
 
 /* Quick Explainer*/
 
@@ -265,12 +266,75 @@ footer {
     color: #1d2e40;
 }
 
+/*Key Benefits*/
+
+#benefits-section {
+    height: 700px;
+    background-color: #ae9092;
+}
+
+.key-benefits {
+    height: 500px;
+}
+
+.key-benefits-header {
+    padding-top: 20px;
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 20px 0;
+    padding-left: 110px;
+}
+
+
+.tutor-image {
+    display: block;
+    height: 500px;
+    width: 60%;
+    margin: auto;
+    padding-top: 130px;
+}
+
+.benefits {
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.benefits-icon {
+    font-size: 50px;
+}
+
+.benefits-heading {
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.benefits-info {
+    word-wrap: break-word;
+    font-size: 20px;
+}
+
 
 /* media queries*/
 
 /*Small Screen Adjustments*/
 
 @media only screen and (max-width: 576px) {
+
+
+    .navbar-collapse {
+        align-items: right;
+
+    }
+
+    #right-about {
+        width: 35%;
+    }
+
+    #left-about {
+        width: 35%;
+    }
+
     .left-about-text-one {
         display: none;
     }
