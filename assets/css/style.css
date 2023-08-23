@@ -107,6 +107,7 @@ li a:hover {
 #center-about {
     width: 33%;
     margin: 0 auto;
+
 }
 
 hr {
@@ -267,110 +268,150 @@ footer {
 
 /* media queries*/
 
-
-
-
 /*Small Screen Adjustments*/
 
-
-/*Large Screen Adjustments*/
-
-@media only screen and (min-width: 992px) {
-    .display-4 {
-        width: 300px;
-        height: 200px;
-        position: relative;
-        left: 100px;
-        top: 50px;
-        font-size: 40px;
+@media only screen and (max-width: 576px) {
+    .left-about-text-one {
+        display: none;
     }
 
-
-    .more-button {
-        position: relative;
-        left: 140px;
-        bottom: 60px;
-
+    .left-about-text-two {
+        display: none;
     }
 
-    #explainer {
-        height: 400px;
+    .right-about-text-one {
+        display: none;
     }
 
-    #left-about {
-        padding-top: 30px;
-        width: 33%;
-        float: left;
-    }
-
-    #right-about {
-        padding-top: 30px;
-        width: 33%;
-        float: right;
+    .right-about-text-two {
+        display: none;
     }
 
     #center-about {
-        width: 33%;
-        margin: 0 auto;
+        clear: both;
+    }
+
+
+    .learn-more {
+        padding-bottom: 30px;
+        padding-top: 0;
     }
 
     hr {
-        border-top: 1px solid #777777;
-        width: 100%;
-        margin: 5px 0;
+        display: none;
     }
 
-    .left-about-heading {
-        width: 50%;
-        color: #000000;
-        float: right;
-        line-height: 20px;
-        clear: both;
-        margin-bottom: 50px;
-        font-family: 'Nanum Gothic',
-            sans-serif;
+    #card-section {
+        height: fit-content;
+
     }
 
-    .right-about-heading {
-        width: 50%;
-        color: #000000;
-        float: left;
-        line-height: 20px;
-        clear: both;
-        margin-bottom: 50px;
-        padding-left: 30px;
-        font-family: 'Nanum Gothic',
-            sans-serif;
-    }
-
-    .right-about-heading h2 {
-        text-align: left;
-        font-family: 'Nanum Gothic',
-            sans-serif;
-    }
-
-    footer {
-        height: 150px;
-    }
-
-    .social-networks {
+    .card-wrapper {
+        flex-direction: column;
         text-align: center;
+        align-items: center;
 
     }
 
-    .social-networks li {
-        display: inline;
+
+    /*Large Screen Adjustments*/
+
+    @media only screen and (min-width: 992px) {
+        .display-4 {
+            width: 300px;
+            height: 200px;
+            position: relative;
+            left: 100px;
+            top: 50px;
+            font-size: 40px;
+        }
+
+
+        .more-button {
+            position: relative;
+            left: 140px;
+            bottom: 60px;
+
+        }
+
+        #explainer {
+            height: 400px;
+        }
+
+        #left-about {
+            padding-top: 30px;
+            width: 33%;
+            float: left;
+        }
+
+        #right-about {
+            padding-top: 30px;
+            width: 33%;
+            float: right;
+        }
+
+        #center-about {
+            width: 33%;
+            margin: 0 auto;
+        }
+
+        hr {
+            border-top: 1px solid #777777;
+            width: 100%;
+            margin: 5px 0;
+        }
+
+        .left-about-heading {
+            width: 50%;
+            color: #000000;
+            float: right;
+            line-height: 20px;
+            clear: both;
+            margin-bottom: 50px;
+            font-family: 'Nanum Gothic',
+                sans-serif;
+        }
+
+        .right-about-heading {
+            width: 50%;
+            color: #000000;
+            float: left;
+            line-height: 20px;
+            clear: both;
+            margin-bottom: 50px;
+            padding-left: 30px;
+            font-family: 'Nanum Gothic',
+                sans-serif;
+        }
+
+        .right-about-heading h2 {
+            text-align: left;
+            font-family: 'Nanum Gothic',
+                sans-serif;
+        }
+
+        footer {
+            height: 150px;
+        }
+
+        .social-networks {
+            text-align: center;
+
+        }
+
+        .social-networks li {
+            display: inline;
+        }
+
+        .social-networks i {
+            font-size: 160%;
+            margin: 1%;
+            padding: 5%;
+            color: #1d2e40;
+        }
+
+
+
+
+
     }
-
-    .social-networks i {
-        font-size: 160%;
-        margin: 1%;
-        padding: 5%;
-        color: #1d2e40;
-    }
-
-
-
-
-
-}
