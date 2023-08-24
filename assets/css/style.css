@@ -269,17 +269,17 @@ footer {
 /*Key Benefits*/
 
 #benefits-section {
-    height: 700px;
+    height: 600px;
     background-color: #F3E8E7;
 }
 
 .key-benefits {
-    height: 450px;
+    height: 480px;
 }
 
 .key-benefits-header {
     padding-top: 20px;
-    font-size: 2rem;
+    font-size: 40px;
     font-weight: 400;
     margin: 20px 0;
     padding-left: 110px;
@@ -289,13 +289,13 @@ footer {
 .tutor-image {
     display: block;
     height: 500px;
-    width: 60%;
+    width: 80%;
     margin: auto;
-    padding-top: 150px;
+    padding-top: 60px;
 }
 
 .benefits {
-    padding-top: 40px;
+    padding-top: 30px;
     padding-right: 50px;
     padding-left: 50px;
 }
@@ -315,23 +315,103 @@ footer {
     font-size: 15px;
 }
 
+/*Success Stories*/
+
 
 .success-header h2 {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
     font-weight: 400px;
     font-size: 40px;
 }
 
 .success-header h3 {
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
 
 }
 
-.card-wrapper1 {
+.card-box {
+    display: flex;
     justify-content: center;
+
 }
+
+.card {
+    text-align: center;
+    margin: 3rem;
+
+
+}
+
+.card-img-top {
+    width: 200px;
+    text-align: center;
+}
+
+.card-title {
+    font-weight: 400;
+    font-size: 25px;
+
+}
+
+.card-text {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/*Free Resource*/
+
+#free-resource {
+    height: 700px;
+    background-image: url(../images/Free\ Resource\ Photo.png);
+    center center no-repeat;
+    background-size: cover;
+
+
+}
+
+.form {
+    margin-left: 10px !important;
+}
+
+
+.form-header {
+    color: #F3E8E7;
+    font-size: 300%;
+    padding-top: 30px;
+    padding-left: 40px;
+
+}
+
+.form-text {
+    color: #F3E8E7;
+    font-size: 180%;
+    padding-left: 40px;
+}
+
+.form {
+    width: 60%;
+    display: block;
+    padding-top: 40px;
+    padding-left: 20px;
+
+}
+
+.form-control {
+    margin: 2rem;
+}
+
+.free-button {
+    text-align: center;
+    padding-top: 10px;
+
+
+
+
+}
+
 
 
 /* media queries*/
