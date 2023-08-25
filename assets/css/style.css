@@ -225,7 +225,7 @@ iframe {
     font-family: 'Lato',
         sans-serif;
     font-size: 300%;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .event-explainer {
@@ -448,11 +448,14 @@ footer {
     }
 
     #right-about {
-        width: 35%;
+        width: 33%;
+        margin-right: 70px;
+
     }
 
     #left-about {
-        width: 35%;
+        width: 33%;
+        margin-right: 60px;
     }
 
     .left-about-text-one {
@@ -497,13 +500,39 @@ footer {
 
     }
 
+    .event-explainer {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    /* success stories*/
+
+    .key-benefits-header {
+        font-size: 25px;
+        padding-left: 25px;
+        padding-top: 20px;
+    }
+
+    p.benefits-info {
+        display: none;
+    }
+
+    .tutor-image {
+        height: 250px;
+    }
+
+    #success-stories {
+        flex-direction: column;
+    }
+
+
+
 
     /*Large screen adjustments*/
     .more-button {
-        position: relative;
         left: 140px;
         bottom: 60px;
-
+        margin-left: 10px;
     }
 
     #explainer {
