@@ -507,6 +507,11 @@ footer {
 
     /* success stories*/
 
+    #benefits-section {
+        height: 650px;
+    }
+
+
     .key-benefits-header {
         font-size: 25px;
         padding-left: 25px;
@@ -518,7 +523,13 @@ footer {
     }
 
     .tutor-image {
-        height: 250px;
+        position: absolute;
+        top: 45%;
+        left: -15%;
+        width: 60%;
+        transform: translate(50%, 50%);
+        height: 350px;
+        padding-top: 140px;
     }
 
     #success-stories {
