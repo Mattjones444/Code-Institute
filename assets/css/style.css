@@ -522,6 +522,11 @@ footer {
 
     }
 
+    .hero-message {
+        inline-size: 150px;
+        padding-top: 50px;
+    }
+
     #right-about {
         width: 33%;
         margin-right: 70px;
@@ -583,14 +588,20 @@ footer {
     /* success stories*/
 
     #benefits-section {
-        height: 650px;
+        height: 550px;
+    }
+
+    .benefit-info {
+        width: 200%;
     }
 
 
     .key-benefits-header {
-        font-size: 25px;
+        font-size: 30px;
         padding-left: 25px;
         padding-top: 20px;
+        margin-left: 80px;
+        width: 150%;
     }
 
     p.benefits-info {
@@ -598,17 +609,43 @@ footer {
     }
 
     .tutor-image {
-        position: absolute;
-        top: 45%;
-        left: -15%;
-        width: 60%;
-        transform: translate(50%, 50%);
-        height: 350px;
-        padding-top: 140px;
+        display: none;
     }
 
-    #success-stories {
-        flex-direction: column;
+    .card-box {
+        display: block;
+
+
+    }
+
+    .card {
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+    .card3 {
+        display: none;
+    }
+
+    #free-resource {
+        background-size: cover;
+
+    }
+
+    .free-button {
+        margin-left: 32px;
+    }
+
+    #pictures {
+        height: 200px;
+    }
+
+    .picture1 {
+        background-size: contain;
+    }
+
+    .picture2 {
+        background-size: contain;
     }
 
     /*Large screen adjustments*/
