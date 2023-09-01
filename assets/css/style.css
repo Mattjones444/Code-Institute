@@ -636,6 +636,12 @@ footer {
         display: none;
     }
 
+    #free-resource {
+        background-position: center;
+        background-attachment: fixed;
+        min-height: 100vh;
+    }
+
 
     .free-button {
         margin-left: 32px;
