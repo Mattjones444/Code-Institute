@@ -6,6 +6,7 @@
 body {
     font-family: 'Lato', sans-serif;
     color: #000000;
+
 }
 
 * {
@@ -385,12 +386,16 @@ footer {
 /*Free Resource*/
 
 #free-resource {
-    height: 700px;
-    background-image: url(../images/Free\ Resource\ Photo.png);
-    center center no-repeat;
+    background-image: url('/assets/images/freeresource.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-
-
+    height: 60%;
+    width: 100%;
 }
 
 .form {
@@ -514,12 +519,16 @@ footer {
 
 /*Small Screen Adjustments*/
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 575.98px) {
 
 
     .navbar-collapse {
         align-items: right;
 
+    }
+
+    .hero-image {
+        width: 100vh;
     }
 
     .hero-message {
@@ -627,25 +636,31 @@ footer {
         display: none;
     }
 
-    #free-resource {
-        background-size: cover;
-
-    }
 
     .free-button {
         margin-left: 32px;
     }
 
+    .picture-container {
+        height: 140px;
+    }
+
     #pictures {
-        height: 200px;
+        height: 140px;
     }
 
     .picture1 {
         background-size: contain;
+        padding-bottom: 20px;
     }
 
     .picture2 {
         background-size: contain;
+        padding-bottom: 20px;
+    }
+
+    .faqs-header {
+        padding-top: 60px;
     }
 
     /*Large screen adjustments*/
