@@ -30,7 +30,7 @@ a.nav-link {
 }
 
 .logo {
-    height: 80px;
+    height: 60px;
     width: 80px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -39,11 +39,11 @@ a.nav-link {
 a.navbar-brand {
     color: #F3E8E7 !important;
     font-family: 'Lato',
-        sans-serif;
-     !important;
+        sans-serif !important;
     font-size: 30px;
-    padding-left: 20px;
+    padding-left: 30px;
     font-weight: 500;
+    align-items: left;
 }
 
 .navbar-brand:hover {
@@ -57,6 +57,10 @@ li a:hover {
 
 .navbar {
     min-width: 255px;
+}
+
+.nav-item {
+    padding-left: 15px;
 }
 
 /* Hero Image*/
@@ -78,21 +82,20 @@ li a:hover {
 
 }
 
+
 .hero-message {
     font-size: 40px;
     font-weight: 400;
     color: #F3E8E7;
-    align-items: left;
     padding-top: 120px;
     padding-left: 20px;
     padding-bottom: 20px;
+
 
 }
 
 .btn {
     background-color: #1d2e40;
-
-
 
 }
 
@@ -250,7 +253,20 @@ iframe {
     display: inline-block;
     padding: 30px;
     margin: 2rem;
+    -moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
+
+.card:hover {
+    -webkit-transform: translate(0, -8px);
+    -moz-transform: translate(0, -8px);
+    -ms-transform: translate(0, -8px);
+    -o-transform: translate(0, -8px);
+    transform: translate(0, -8px);
+    box-shadow: 0 40px 40px rgba(0, 0, 0, 0.2);
+}
+
 
 .card-img-top {
     height: 150px;
@@ -267,7 +283,7 @@ iframe {
 /* Social Links*/
 
 footer {
-    height: 300px;
+    height: 200px;
     background-color: #F3E8E7;
 
 }
@@ -313,10 +329,10 @@ footer {
 
 .tutor-image {
     display: block;
-    height: 500px;
-    width: 80%;
+    height: 600px;
+    width: 90%;
     margin: auto;
-    padding-top: 60px;
+    padding-top: 160px;
 }
 
 .benefits {
@@ -396,19 +412,13 @@ footer {
 
 #free-resource {
     background-image: url('../images/freeresource.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     height: 60%;
     width: 100%;
 }
 
 .form {
-    margin-left: 10px !important;
+    margin-left: 70px !important;
 }
 
 
@@ -434,7 +444,7 @@ footer {
 .form {
     width: 60%;
     display: block;
-    padding-top: 30px;
+    padding-top: 20px;
 
 }
 
@@ -445,6 +455,8 @@ footer {
 .free-button {
     text-align: center;
     padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 50px;
 }
 
 /* Sign Up Form*/
