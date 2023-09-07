@@ -154,6 +154,11 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+    font-weight: 300;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    color: #6e6969;
+
 }
 
 .right-about-heading {
@@ -162,10 +167,28 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+    font-weight: 300;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    color: #6e6969;
+
 }
 
 .right-about-heading h2 {
-    text-align: right;
+    text-align: left;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: #6e6969;
+    padding-top: 25px;
+
+}
+
+.left-about-heading h2 {
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: #6e6969;
 
 }
 
@@ -459,6 +482,11 @@ footer {
     padding-top: 10px;
     padding-bottom: 30px;
     padding-left: 50px;
+    
+}
+
+.btn-danger{
+             
 }
 
 /* Sign Up Form*/
