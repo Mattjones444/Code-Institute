@@ -283,7 +283,7 @@ iframe {
 /* Social Links*/
 
 footer {
-    height: 200px;
+    height: 250px;
     background-color: #F3E8E7;
 
 }
@@ -309,7 +309,7 @@ footer {
 /*Key Benefits*/
 
 #benefits-section {
-    height: 700px;
+    height: 650px;
     background-color: #ebcdbd;
 }
 
@@ -318,7 +318,7 @@ footer {
 }
 
 .key-benefits-header {
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 3px;
     font-size: 40px;
     text-align: center;
@@ -329,10 +329,10 @@ footer {
 
 .tutor-image {
     display: block;
-    height: 600px;
-    width: 90%;
+    height: 550px;
+    width: 80%;
     margin: auto;
-    padding-top: 160px;
+    padding-top: 100px;
 }
 
 .benefits {
@@ -346,13 +346,14 @@ footer {
 }
 
 .benefits-heading {
-    font-weight: 400;
+    font-weight: 300;
     padding-bottom: 10px;
     font-size: 22px;
 }
 
 .benefits-info {
     word-wrap: break-word;
+    font-weight: 200;
     font-size: 20px;
     color: #000000;
 }
@@ -413,7 +414,7 @@ footer {
 #free-resource {
     background-image: url('../images/freeresource.png');
     background-size: cover;
-    height: 60%;
+    height: 600px;
     width: 100%;
 }
 
@@ -445,6 +446,7 @@ footer {
     width: 60%;
     display: block;
     padding-top: 20px;
+    padding-left: 80px;
 
 }
 
@@ -493,7 +495,7 @@ footer {
 /* Pictures*/
 
 #pictures {
-    height: 600px;
+    height: 500px;
     background-color: #1d2e40;
 }
 
@@ -503,7 +505,7 @@ footer {
 
 .picture1 {
     width: 50%;
-    height: 600px;
+    height: 500px;
     background-image: url("../images/signupphoto1.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -511,7 +513,7 @@ footer {
 
 .picture2 {
     width: 50%;
-    height: 600px;
+    height: 500px;
     background-image: url("../images/signup2.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -529,7 +531,7 @@ footer {
     letter-spacing: 3px;
     font-size: 50px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
 
 }
 
