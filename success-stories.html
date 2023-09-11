@@ -154,46 +154,86 @@
             <div class="col">
                 <h2 class="form-header">Download your free resource</h2>
                 <p class="form-text">Choose a tutoring service that puts you in control and works for your child</p>
-                <form>
+                <form method="post">
                     <div class="row form">
                         <div class="col">
-                            <input type="text" class="form-control" placeholder="First name">
+                            <input type="text" class="form-control" id="fname" placeholder="First name" required />
                         </div>
                         <div class="col">
-                            <input type="text" class="form-control" placeholder="Last name">
+                            <input type="text" class="form-control" id="lname" placeholder="last name" required />
                         </div>
                         <div class="col">
-                            <input type="text" class="form-control" placeholder="Email">
+                            <input type="email" class="form-control" id="email" placeholder="Email" required />
                         </div>
-                        <div class="free-button">
-                            <a class="btn btn-primary" href="./assets/css/docs/mattjonesonescv.pdf" target="_blank"
-                                role="button">Download Free Resource</a>
-                        </div>
+                        <input type="submit" id="submit-form" value="submit" hidden />
                     </div>
-                </form>
-
+                    <div class="free-button">
+                        <input class="btn btn-primary" type="submit">
+                    </div>
             </div>
             <div class="col">
-
             </div>
         </div>
-
         </div>
     </section>
     <!--Footer section-->
-    <section id="footer">
-        <footer>
-            <ul class="social-networks">
-                <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"> </i></li>
-                <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"> </i></li>
-                <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"> </i></li>
-                <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"> </i></li>
-            </ul>
-        </footer>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">Pocket Tutor is the fresh, affordable and flexible way to help your child
+                        succeed and reach their potential. Our award-winning tutors will engage with your child
+                        to support them whenever they need it.</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Categories</h6>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="success-stories.html">Our Success</a></li>
+                        <li><a href="signup.html">Sign Up</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="index.html">About Us</a></li>
+                        <li><a href="signup.html">Contact Us</a></li>
+                        <li><a href="http://facebook.com">Contribute</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by Pocket Tutor
+
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" target="_blank" href="http://facebook.com/"><i
+                                    class="fab fa-facebook"></i></a></li>
+                        <li><a class="twitter" target="_blank" href="http://twitter.com/"><i
+                                    class="fab fa-twitter"></i></a>
+                        </li>
+                        <li><a class="instagram" target="_blank" href="http://instagram.com"><i
+                                    class="fab fa-instagram"></i></a></li>
+                        <li><a class="linkedin" target="_blank" href="http://linkedin.com"><i
+                                    class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-</body>
-
-</html>
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</body >
+</html >;
