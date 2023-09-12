@@ -694,24 +694,35 @@ iframe {
         width: 100vh;
     }
 
+    .more-button {
+        margin-left: 10px;
+        width: 70%;
+    }
+
     .hero-message {
         inline-size: 150px;
         padding-top: 50px;
+        padding-bottom: 5px;
     }
 
     #right-about {
-        width: 33%;
-        margin-right: 70px;
+        width: 30%;
+        margin-right: 30px;
+        padding-top: 0px;
 
     }
 
     #left-about {
-        width: 33%;
+        width: 30%;
         margin-right: 60px;
     }
 
     .left-about-heading {
         margin-left: 10px;
+    }
+
+    .right-about-heading {
+        margin-bottom: 30px;
     }
 
     .left-about-text-one {
@@ -805,13 +816,14 @@ iframe {
 
     #free-resource {
         background-position: center;
-        min-height: 65vh;
+        min-height: 60vh;
     }
 
     .form {
         padding-left: 20px;
         margin-left: 15px;
         width: 75%;
+        padding-top: 0;
     }
 
 
