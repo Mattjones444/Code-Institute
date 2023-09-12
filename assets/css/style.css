@@ -560,11 +560,6 @@ iframe {
     width: 100%;
 }
 
-.form {
-    margin-left: 70px !important;
-}
-
-
 .form-header {
     font-weight: 200;
     letter-spacing: 3px;
@@ -585,10 +580,11 @@ iframe {
 }
 
 .form {
-    width: 60%;
+    width: 50%;
     display: block;
     padding-top: 20px;
-    padding-left: 80px;
+    padding-left: 100px;
+    margin-left: 100px;
 
 }
 
@@ -600,11 +596,10 @@ iframe {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 30px;
-    padding-left: 50px;
+    padding-left: 20px;
 
 }
 
-.btn-danger {}
 
 /* Sign Up Form*/
 
@@ -715,6 +710,10 @@ iframe {
         margin-right: 60px;
     }
 
+    .left-about-heading {
+        margin-left: 10px;
+    }
+
     .left-about-text-one {
         display: none;
     }
@@ -806,8 +805,13 @@ iframe {
 
     #free-resource {
         background-position: center;
-        background-attachment: fixed;
-        min-height: 100vh;
+        min-height: 65vh;
+    }
+
+    .form {
+        padding-left: 20px;
+        margin-left: 15px;
+        width: 75%;
     }
 
 
@@ -836,88 +840,3 @@ iframe {
     .faqs-header {
         padding-top: 60px;
     }
-
-    /*Large screen adjustments*/
-    .more-button {
-        left: 140px;
-        bottom: 60px;
-        margin-left: 10px;
-    }
-
-    #explainer {
-        height: 400px;
-    }
-
-    #left-about {
-        padding-top: 30px;
-        width: 33%;
-        float: left;
-    }
-
-    #right-about {
-        padding-top: 30px;
-        width: 33%;
-        float: right;
-    }
-
-    #center-about {
-        width: 33%;
-        margin: 0 auto;
-    }
-
-    hr {
-        border-top: 1px solid #777777;
-        width: 100%;
-        margin: 5px 0;
-    }
-
-    .left-about-heading {
-        width: 50%;
-        color: #000000;
-        float: right;
-        line-height: 20px;
-        clear: both;
-        margin-bottom: 50px;
-        font-family: 'Nanum Gothic',
-            sans-serif;
-    }
-
-    .right-about-heading {
-        width: 50%;
-        color: #000000;
-        float: left;
-        line-height: 20px;
-        clear: both;
-        margin-bottom: 50px;
-        padding-left: 30px;
-        font-family: 'Nanum Gothic',
-            sans-serif;
-    }
-
-    .right-about-heading h2 {
-        text-align: left;
-        font-family: 'Nanum Gothic',
-            sans-serif;
-    }
-
-    footer {
-        height: 150px;
-    }
-
-    .social-networks {
-        text-align: center;
-
-    }
-
-    .social-networks li {
-        display: inline;
-    }
-
-    .social-networks i {
-        font-size: 160%;
-        margin: 1%;
-        padding: 5%;
-        color: #1d2e40;
-    }
-
-}
