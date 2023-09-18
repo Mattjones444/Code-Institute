@@ -852,3 +852,69 @@ iframe {
     .faqs-header {
         padding-top: 60px;
     }
+}
+
+/*Medium Screen Adjustments*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+    .left-about-heading {
+        width: 70%;
+    }
+
+    .right-about-heading {
+        width: 80%;
+    }
+
+    #benefits-section {
+        height: 920px;
+    }
+
+    .tutor-image {
+        margin-top: 150px;
+    }
+
+    .card3 {
+        display: none;
+    }
+
+    .form {
+        margin-left: 30px;
+    }
+
+    .free-button {
+        padding: 0;
+        margin-right: 25px;
+    }
+}
+
+@media screen and (device-width: 375px) and (device-height: 667px) {
+
+    .left-about-heading {
+        width: 80%;
+    }
+
+    .right-about-heading {
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    .key-benefits-header {
+        padding-left: 0;
+        margin-left: 70px;
+    }
+
+    .card1,
+    .card2 {
+        margin-left: 80px;
+    }
+
+    #free-resource {
+        height: 700px;
+    }
+
+    .form-sign-up {
+        margin-left: 85px;
+    }
+
+}
