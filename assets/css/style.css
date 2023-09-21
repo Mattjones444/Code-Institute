@@ -760,6 +760,10 @@ iframe {
         display: none;
     }
 
+    iframe {
+        width: 100%;
+    }
+
     #card-section {
         height: fit-content;
 
@@ -835,9 +839,15 @@ iframe {
         height: 600px;
     }
 
+    .faqs {
+        height: 200px;
+    }
+
     .faqs-header {
         padding-top: 120px;
+        height: 230px;
     }
+
 }
 
 @media only screen and (min-device-width: 430px) and (max-device-width: 538px) {
@@ -915,6 +925,10 @@ iframe {
 
     hr {
         display: none;
+    }
+
+    iframe {
+        width: 100%;
     }
 
     #card-section {
@@ -1013,6 +1027,10 @@ iframe {
     .faqs-header {
         padding-top: 120px;
     }
+
+    .faqs {
+        height: 200px;
+    }
 }
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 430px) {
@@ -1041,24 +1059,26 @@ iframe {
 
     #right-about {
         width: 30%;
-        margin-right: 30px;
+        margin-left: 10px;
         padding-top: 0px;
+        margin-right: 20px;
 
     }
 
     #left-about {
-        width: 30%;
+        width: 10%;
         margin-right: 60px;
+        margin-left: -20px;
     }
 
     .left-about-heading {
         margin-left: 10px;
-        width: 40%;
+        width: 20%;
     }
 
     .right-about-heading {
         margin-bottom: 30px;
-        width: 40%;
+        width: 20%;
     }
 
     .left-about-text-one {
@@ -1085,12 +1105,20 @@ iframe {
 
     .learn-more {
         padding-bottom: 30px;
-        margin-top: 420px;
+        margin-top: 490px;
         padding-top: 0;
+    }
+
+    .learn-more-button {
+        margin-left: 120px;
     }
 
     hr {
         display: none;
+    }
+
+    iframe {
+        width: 100%;
     }
 
     #card-section {
@@ -1168,9 +1196,15 @@ iframe {
         display: none;
     }
 
+    .form-sign-up {
+        margin-left: 75px;
+        padding-top: 0px;
+    }
+
     .free-button2 {
         display: flex;
         justify-content: center;
+        margin-left: 70px;
     }
 
     .picture1 {
@@ -1184,5 +1218,10 @@ iframe {
 
     .faqs-header {
         padding-top: 120px;
+
+    }
+
+    .faqs {
+        height: 200px;
     }
 }
