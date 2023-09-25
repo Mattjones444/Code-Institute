@@ -2,11 +2,6 @@
 
 /* Nav bar and header*/
 
-.bg-body-tertiary {
-    background-color: #1d2e40 !important;
-}
-
-
 .navbar-dark {
     background-color: #1d2e40 !important;
 
@@ -81,20 +76,15 @@ li a:hover {
     padding-top: 120px;
     padding-left: 20px;
     padding-bottom: 20px;
-
-
 }
 
 .btn {
     background-color: #1d2e40;
-
 }
 
 .more-button {
     align-items: center;
     margin-left: 100px;
-
-
 }
 
 
@@ -129,7 +119,6 @@ li a:hover {
 #center-about {
     width: 33%;
     margin: 0 auto;
-
 }
 
 hr {
@@ -149,7 +138,6 @@ hr {
     font-size: 17px;
     letter-spacing: 0.5px;
     color: #6e6969;
-
 }
 
 .right-about-heading {
@@ -192,7 +180,6 @@ hr {
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
-
 }
 
 #circle-cover-bg {
