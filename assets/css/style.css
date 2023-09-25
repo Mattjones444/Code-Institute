@@ -1,24 +1,15 @@
 <style>@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap');
 </style>
-/* General Rules*/
-
-
-body {
-    font-family: 'Lato', sans-serif;
-    color: #000000;
-
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
 /* Nav bar and header*/
 
 .bg-body-tertiary {
     background-color: #1d2e40 !important;
+}
+
+
+.navbar-dark {
+    background-color: #1d2e40 !important;
+
 }
 
 a.nav-link {
@@ -43,7 +34,6 @@ a.navbar-brand {
     font-size: 30px;
     padding-left: 30px;
     font-weight: 500;
-    align-items: left;
 }
 
 .navbar-brand:hover {
@@ -57,6 +47,7 @@ li a:hover {
 
 .navbar {
     min-width: 255px;
+
 }
 
 .nav-item {
@@ -693,6 +684,7 @@ iframe {
         align-items: right;
 
     }
+
 
     .hero-image {
         width: 100vh;
