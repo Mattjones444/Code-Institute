@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap');
 
-/* Nav bar and header*/
+
+.navbar-collapse {
+    align-items: right;
+
+
+}
 
 .navbar-dark {
     background-color: #1d2e40 !important;
@@ -49,7 +54,10 @@ li a:hover {
     padding-left: 15px;
 }
 
-/* Hero Image*/
+
+.hero-image {
+    width: 100vh;
+}
 
 #jumbotron {
     height: 450px;
@@ -88,7 +96,19 @@ li a:hover {
 }
 
 
-/* Quick Explainer*/
+.more-button {
+    margin-left: 10px;
+
+
+}
+
+
+.hero-message {
+    inline-size: 150px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+}
 
 #welcome {
     font-weight: 200;
@@ -101,36 +121,32 @@ li a:hover {
 
 
 #club-ethos {
-    height: 200px;
+    height: 170px;
+}
+
+
+#right-about {
+    width: 30%;
+    margin-left: 10px;
+    padding-top: 20px;
+    margin-right: 20px;
+    float: right;
+
+
 }
 
 #left-about {
-    padding-top: 30px;
-    width: 33%;
+    width: 10%;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
     float: left;
 }
-
-#right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-}
-
-#center-about {
-    width: 33%;
-    margin: 0 auto;
-}
-
-hr {
-    border-top: 1px solid #777777;
-    width: 100%;
-    margin: 5px 0;
-}
-
 
 .left-about-heading {
+    margin-left: 20px;
     width: 50%;
-    float: right;
+    padding-bottom: 60px;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
@@ -139,10 +155,12 @@ hr {
     letter-spacing: 0.5px;
     color: #6e6969;
 }
+
 
 .right-about-heading {
+    margin-bottom: 0px;
     width: 50%;
-    float: left;
+    padding-bottom: 50px;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
@@ -150,54 +168,47 @@ hr {
     font-size: 17px;
     letter-spacing: 0.5px;
     color: #6e6969;
-
 }
 
-.right-about-heading h2 {
-    text-align: left;
-    font-weight: 400;
-    letter-spacing: 2px;
-    font-size: 30px;
-    color: #6e6969;
-    padding-top: 25px;
 
+.left-about-text-one {
+    display: none;
 }
 
-.left-about-heading h2 {
-    font-weight: 400;
-    letter-spacing: 2px;
-    font-size: 30px;
-    color: #6e6969;
 
+.left-about-text-two {
+    display: none;
 }
 
-#circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #cccccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
+
+.right-about-text-one {
+    display: none;
 }
 
-#circle-cover-bg {
-    background: url('../images/explainerphoto1.jpeg') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-    background-size: cover;
+
+.right-about-text-two {
+    display: none;
+}
+
+
+#center-about {
+    clear: both;
+    display: none;
 }
 
 
 .learn-more {
-    text-align: center;
-    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-top: 460px;
 
 }
 
 
-/* Why online tutoring video section*/
+hr {
+    display: none;
+}
+
+/* Benfits of online tutoring */
 
 #why-online {
     background-color: #d7d5da;
@@ -220,11 +231,17 @@ iframe {
 
 }
 
-/* Card Section*/
+
+iframe {
+    width: 100%;
+}
+
+
+/* Our Events */
 
 #card-section {
     width: 100%;
-    height: 700px;
+    height: 1450px;
     background-color: #ebcdbd;
 
 }
@@ -273,14 +290,23 @@ iframe {
     width: 90%;
 }
 
-.card-text {
-    font-family: 'Lato',
-        sans-serif;
+.card-text,
+.card-body {
     font-size: 25px;
+    color: #000000;
 
 }
 
-/* Social Links*/
+
+.card-wrapper {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+/* footer */
 
 .site-footer {
     background-color: #1d2e40;
@@ -424,11 +450,15 @@ iframe {
     background-color: #ea4c89
 }
 
+.event-explainer {
+    margin-left: 15px;
+    margin-right: 15px;
+}
 
-/*Key Benefits*/
+/* Success Stories */
 
 #benefits-section {
-    height: 720px;
+    height: 750px;
     background-color: #ebcdbd;
 }
 
@@ -448,38 +478,40 @@ iframe {
 
 .tutor-image {
     display: block;
-    height: 550px;
+    height: 200px;
     width: 80%;
-    margin-top: 90px;
-    padding-top: 100px;
+    margin-top: 0px;
+    margin-left: 40px;
+}
 
+.col {
+    flex: none;
 }
 
 .benefits {
-    padding-top: 30px;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-bottom: 20px;
 }
 
-.benefits-icon {
-    font-size: 30px;
+
+.key-benefits-header {
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
 
 .benefits-heading {
     font-weight: 300;
-    padding-bottom: 10px;
-    font-size: 22px;
+}
+
+.fas {
+    font-weight: 1000;
 }
 
 .benefits-info {
-    word-wrap: break-word;
-    font-weight: 200;
-    font-size: 20px;
-    color: #000000;
+    display: none;
 }
 
-/*Success Stories*/
-
+/* Success Stories */
 
 .success-header h2 {
     text-align: center;
@@ -527,14 +559,18 @@ iframe {
 .card-text {
     font-size: 20px;
     font-weight: 300;
+    color: #000000;
 }
 
-/*Free Resource*/
+/* Free Resource Section */
+#free-resource {
+    height: 800px;
+}
 
 #free-resource {
     background-image: url('../images/freeresource.png');
     background-size: cover;
-    height: 600px;
+    height: 700px;
     width: 100%;
 }
 
@@ -582,12 +618,62 @@ iframe {
     box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, .8);
 }
 
+.form-header,
+.form-text {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.form {
+    margin-left: -110px;
+    width: 70%;
+    margin-top: -50px;
+}
+
+
+.free-button {
+    margin-left: -200px;
+}
+
+
+.success-stories-text {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.card-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+
+
+}
+
+
+.card3 {
+    display: none;
+}
+
+
+.form-sign-up {
+    margin-left: 75px;
+    padding-top: 0px;
+}
+
+
+.free-button2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+}
 
 /* Sign Up Form*/
 
 .signupform {
     width: 100%;
-    height: 600px;
+    height: 580px;
     background-color: #d7d5da;
 
 }
@@ -609,9 +695,8 @@ iframe {
 
 .form-sign-up {
     width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 30px;
+    margin-left: 70px;
+    padding-top: 0px;
 }
 
 .free-button2 {
@@ -630,13 +715,6 @@ iframe {
     margin: auto;
 }
 
-.picture1 {
-    width: 50%;
-    height: 500px;
-    background-image: url("../images/signupphoto1.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
 .picture2 {
     width: 50%;
@@ -645,8 +723,6 @@ iframe {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-/* FAQs*/
 
 .faqs {
     width: 100%;
@@ -662,564 +738,1339 @@ iframe {
 
 }
 
-/* media queries*/
+
+.picture1 {
+    display: none;
+}
 
 
-@media only screen and (min-device-width: 538px) and (max-device-width: 845px) {
-
-    .navbar-collapse {
-        align-items: right;
-
-    }
+.picture2 {
+    width: 100%;
+    height: 600px;
+}
 
 
-    .hero-image {
-        width: 100vh;
-    }
+.faqs-header {
+    padding-top: 120px;
 
-    .more-button {
-        margin-left: 10px;
 
-    }
+}
 
-    .hero-message {
-        inline-size: 150px;
-        padding-top: 50px;
-        padding-bottom: 20px;
-        margin-left: 30px;
-    }
 
-    #right-about {
-        width: 30%;
-        margin-right: 30px;
-        padding-top: 0px;
+.faqs {
+    height: 200px;
+}
 
-    }
+/* Media Queries */
 
-    #left-about {
-        width: 30%;
-        margin-right: 60px;
-    }
+@media screen and (min-width: 570px) {
 
-    .left-about-heading {
-        margin-left: 10px;
-        width: 40%;
-    }
-
-    .right-about-heading {
-        margin-bottom: 30px;
-        width: 40%;
-    }
-
-    .left-about-text-one {
-        display: none;
-    }
-
-    .left-about-text-two {
-        display: none;
-    }
-
-    .right-about-text-one {
-        display: none;
-    }
-
-    .right-about-text-two {
-        display: none;
-    }
-
-    #center-about {
-        clear: both;
-        display: none;
-
-    }
-
-    .learn-more {
-        padding-bottom: 30px;
-        margin-top: 420px;
-        padding-top: 0;
-    }
-
-    hr {
-        display: none;
-    }
-
-    iframe {
-        width: 100%;
-    }
-
-    #card-section {
-        height: fit-content;
-
-    }
-
-    .card-wrapper {
-        flex-direction: column;
+    #welcome {
+        font-weight: 200;
+        letter-spacing: 3px;
+        font-size: 50px;
         text-align: center;
-        align-items: center;
-
-    }
-
-    .event-explainer {
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-
-    #benefits-section {
-        height: 800px;
-    }
-
-    .col {
-        flex: none;
-    }
-
-    .benefits-info {
-        display: none;
-    }
-
-    #free-resource {
-        height: 650px;
-    }
-
-    .tutor-image {
-        height: 450px;
-        width: 50%;
-        margin-top: -220px;
-        margin-left: 270px;
-    }
-
-    .form-header,
-    .form-text {
-        width: 50%;
-    }
-
-    .form-text {
-        padding-left: 20px;
-    }
-
-    .form {
-        margin-left: -90px;
-        width: 40%;
-    }
-
-    .free-button {
-        margin-left: -690px;
-    }
-
-    .card3 {
-        display: none;
-    }
-
-    .free-button2 {
-        display: flex;
-        justify-content: center;
-    }
-
-    .picture1 {
-        display: none;
-    }
-
-    .picture2 {
-        width: 100%;
-        height: 600px;
-    }
-
-    .faqs {
-        height: 200px;
-    }
-
-    .faqs-header {
-        padding-top: 120px;
-        height: 230px;
-    }
-
-}
-
-@media only screen and (min-device-width: 538px) and (max-device-width: 734px) {
-
-    .tutor-image {
-        margin-top: -150px;
-        margin-left: 190px;
-    }
-
-    #benefits-section {
-        height: 850px;
-    }
-
-}
-
-@media only screen and (min-device-width: 430px) and (max-device-width: 538px) {
-
-    .navbar-collapse {
-        align-items: right;
-
-    }
-
-    .hero-image {
-        width: 100vh;
-    }
-
-    .more-button {
-        margin-left: 10px;
-
-    }
-
-    .hero-message {
-        inline-size: 150px;
-        padding-top: 50px;
+        padding-top: 30px;
         padding-bottom: 20px;
-        margin-left: 30px;
     }
+
+
+    #club-ethos {
+        height: 170px;
+    }
+
 
     #right-about {
-        width: 30%;
-        margin-right: 30px;
-        padding-top: 0px;
+        width: 35%;
+        margin-left: 10px;
+        padding-top: 20px;
+        margin-right: -10px;
+        float: right;
+
 
     }
 
     #left-about {
-        width: 30%;
+        width: 45%;
         margin-right: 60px;
+        margin-top: 20px;
+        margin-left: 55px;
+        float: left;
     }
 
     .left-about-heading {
-        margin-left: 10px;
-        width: 40%;
+        margin-left: 20px;
+        width: 50%;
+        padding-bottom: 60px;
+        line-height: 20px;
+        clear: both;
+        margin-bottom: 50px;
+        font-weight: 300;
+        font-size: 17px;
+        letter-spacing: 0.5px;
+        color: #6e6969;
     }
 
+
     .right-about-heading {
-        margin-bottom: 30px;
-        width: 40%;
+        margin-bottom: 0px;
+        width: 50%;
+        padding-bottom: 50px;
+        line-height: 20px;
+        clear: both;
+        margin-bottom: 90px;
+        font-weight: 300;
+        font-size: 17px;
+        letter-spacing: 0.5px;
+        color: #6e6969;
     }
+
 
     .left-about-text-one {
         display: none;
     }
 
-    .left-about-text-two {
-        display: none;
-    }
-
-    .right-about-text-one {
-        display: none;
-    }
-
-    .right-about-text-two {
-        display: none;
-    }
-
-    #center-about {
-        clear: both;
-        display: none;
-
-    }
-
-    .learn-more {
-        padding-bottom: 30px;
-        margin-top: 420px;
-        padding-top: 0;
-    }
-
-    hr {
-        display: none;
-    }
-
-    iframe {
-        width: 100%;
-    }
-
-    #card-section {
-        height: fit-content;
-
-    }
-
-    .card-wrapper {
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-
-    }
-
-    .event-explainer {
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-
-    #benefits-section {
-        height: 800px;
-    }
-
-    .col {
-        flex: none;
-    }
-
-    .key-benefits-header {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .benefits-info {
-        display: none;
-    }
-
-    #free-resource {
-        height: 650px;
-    }
-
-    .tutor-image {
-        height: 300px;
-        width: 50%;
-        margin-top: -70px;
-        margin-left: 190px;
-    }
-
-    .form-header,
-    .form-text {
-        width: 50%;
-    }
-
-    .form-text {
-        padding-left: 20px;
-    }
-
-    .form {
-        margin-left: -90px;
-    }
-
-    .free-button {
-        margin-left: -400px;
-    }
-
-    .success-stories-text {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .card-box {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-
-    }
-
-
-    .card3 {
-        display: none;
-    }
-
-    .free-button2 {
-        display: flex;
-        justify-content: center;
-    }
-
-    .picture1 {
-        display: none;
-    }
-
-    .picture2 {
-        width: 100%;
-        height: 600px;
-    }
-
-    .faqs-header {
-        padding-top: 120px;
-    }
-
-    .faqs {
-        height: 200px;
-    }
-}
-
-@media only screen and (min-device-width: 300px) and (max-device-width: 430px) {
-
-
-    .navbar-collapse {
-        align-items: right;
-
-    }
-
-    .hero-image {
-        width: 100vh;
-    }
-
-    .more-button {
-        margin-left: 10px;
-
-    }
-
-    .hero-message {
-        inline-size: 150px;
-        padding-top: 50px;
-        padding-bottom: 20px;
-        margin-left: 30px;
-    }
-
-    #right-about {
-        width: 30%;
-        margin-left: 10px;
-        padding-top: 0px;
-        margin-right: 20px;
-
-    }
-
-    #left-about {
-        width: 10%;
-        margin-right: 60px;
-        margin-left: -20px;
-    }
-
-    .left-about-heading {
-        margin-left: 10px;
-        width: 20%;
-    }
-
-    .right-about-heading {
-        margin-bottom: 30px;
-        width: 20%;
-    }
-
-    .left-about-text-one {
-        display: none;
-    }
 
     .left-about-text-two {
         display: none;
     }
 
+
     .right-about-text-one {
         display: none;
     }
+
 
     .right-about-text-two {
         display: none;
     }
 
+
     #center-about {
         clear: both;
         display: none;
-
     }
+
 
     .learn-more {
         padding-bottom: 30px;
-        margin-top: 490px;
-        padding-top: 0;
+        margin-top: 460px;
+        margin-right: 250px;
+
+
     }
 
     .learn-more-button {
-        margin-left: 120px;
+        margin-left: 190px;
+        margin-bottom: 50px;
     }
 
     hr {
         display: none;
     }
+}
 
-    iframe {
-        width: 100%;
-    }
 
-    #card-section {
-        height: fit-content;
-
-    }
-
-    .card-wrapper {
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-
-    }
-
-    .event-explainer {
-        margin-left: 15px;
-        margin-right: 15px;
-    }
+@media screen and (min-width: 1026px) {
 
     #benefits-section {
-        height: 700px;
+        height: 720px;
+        background-color: #ebcdbd;
     }
 
-    .col {
-        flex: none;
+    .key-benefits {
+        height: 520px;
     }
 
     .key-benefits-header {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .benefits-info {
-        display: none;
-    }
-
-    #free-resource {
-        height: 700px;
+        font-weight: 300;
+        letter-spacing: 3px;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 20px;
     }
 
     .tutor-image {
-        display: none;
-    }
-
-    .form-header,
-    .form-text {
+        display: block;
+        height: 550px;
         width: 50%;
+        margin-top: -420px;
+        padding-top: 100px;
+        margin-left: 460px;
+
+    }
+
+    .benefits {
+        padding-top: 30px;
+        padding-right: 50px;
         padding-left: 20px;
+        width: 90%;
+        margin-left: -290px;
     }
 
-    .form {
-        margin-left: -110px;
-        width: 70%;
-        margin-top: -50px;
+    .benefits-icon {
+        font-size: 30px;
     }
 
-    .free-button {
-        margin-left: -200px;
+
+    .benefits-heading {
+        font-weight: 300;
+        padding-bottom: 10px;
+        font-size: 22px;
     }
 
-    .success-stories-text {
+    .benefits-info {
+        word-wrap: break-word;
+        font-weight: 200;
+        font-size: 20px;
+        color: #000000;
+        width: 50%;
+    }
+}
+
+
+@media screen and (min-width: 1262px) {
+
+    /* Nav bar and header*/
+
+    .navbar-dark {
+        background-color: #1d2e40 !important;
+
+    }
+
+    a.nav-link {
+        color: #F3E8E7 !important;
+        font-size: 27px;
+        font-family: 'Lato',
+            sans-serif;
+
+    }
+
+    .logo {
+        height: 60px;
+        width: 80px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    a.navbar-brand {
+        color: #F3E8E7 !important;
+        font-family: 'Lato',
+            sans-serif !important;
+        font-size: 30px;
+        padding-left: 30px;
+        font-weight: 500;
+    }
+
+    .navbar-brand:hover {
+        color: #ae9092 !important;
+
+    }
+
+    li a:hover {
+        color: #ae9092 !important;
+    }
+
+    .navbar {
+        min-width: 255px;
+
+    }
+
+    .nav-item {
+        padding-left: 15px;
+    }
+
+    /* Hero Image*/
+
+    #jumbotron {
+        height: 450px;
+        width: 100%;
+    }
+
+    .jumbotron-container {
+        margin-right: 10px;
+    }
+
+    .hero-image {
+        background: url(../images/heroimage.png) no-repeat center center;
+        width: 100%;
+        height: 450px;
+        background-size: cover;
+
+    }
+
+
+    .hero-message {
+        font-size: 40px;
+        font-weight: 400;
+        color: #F3E8E7;
+        padding-top: 120px;
         padding-left: 20px;
-        padding-right: 20px;
+        padding-bottom: 20px;
+        margin-left: 140px;
+    }
+
+    .btn {
+        background-color: #1d2e40;
+    }
+
+    .more-button {
+        align-items: center;
+        margin-left: 65px;
+    }
+
+
+    /* Quick Explainer*/
+
+    #welcome {
+        font-weight: 200;
+        letter-spacing: 3px;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+
+    #club-ethos {
+        height: 100px;
+    }
+
+    #left-about {
+        padding-top: 30px;
+        width: 33%;
+        float: left;
+    }
+
+    #right-about {
+        padding-top: 30px;
+        width: 33%;
+        float: right;
+    }
+
+    #center-about {
+        width: 33%;
+        margin: 0 auto;
+        display: inline;
+    }
+
+    hr {
+        border-top: 1px solid #777777;
+        width: 100%;
+        margin: 5px 0;
+    }
+
+
+    .left-about-heading {
+        width: 50%;
+        float: right;
+        line-height: 20px;
+        clear: both;
+        margin-bottom: 10px;
+        font-weight: 300;
+        font-size: 17px;
+        letter-spacing: 0.5px;
+        color: #6e6969;
+    }
+
+    .right-about-heading {
+        width: 50%;
+        float: left;
+        line-height: 20px;
+        clear: both;
+        margin-bottom: 50px;
+        font-weight: 300;
+        font-size: 17px;
+        letter-spacing: 0.5px;
+        color: #6e6969;
+
+    }
+
+    .right-about-heading h2 {
+        text-align: left;
+        font-weight: 400;
+        letter-spacing: 2px;
+        font-size: 30px;
+        color: #6e6969;
+        padding-top: 25px;
+
+    }
+
+    .left-about-heading h2 {
+        font-weight: 400;
+        letter-spacing: 2px;
+        font-size: 30px;
+        color: #6e6969;
+
+    }
+
+    .left-about-text-one,
+    .left-about-text-two,
+    .right-about-text-one,
+    .right-about-text-two {
+        display: contents;
+    }
+
+    #circle-container {
+        width: 300px;
+        height: 300px;
+        padding: 30px;
+        border-style: solid;
+        border-color: #cccccc;
+        border-width: 1px;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+
+    #circle-cover-bg {
+        background: url('../images/explainerphoto1.jpeg') no-repeat center center;
+        height: 100%;
+        border-radius: 50%;
+        background-size: cover;
+    }
+
+
+    .learn-more {
+        text-align: center;
+        padding-top: 40px;
+        margin-top: 20px;
+        margin-right: 500px;
+
+    }
+
+
+
+    /* Why online tutoring video section*/
+
+    #why-online {
+        background-color: #d7d5da;
+        clear: both;
+
+    }
+
+    .why-online-tutoring {
+        font-weight: 200;
+        letter-spacing: 3px;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    iframe {
+        margin-bottom: 90px;
+        border: 50px solid #1d2e40;
+        width: 500px;
+        height: 500px;
+
+    }
+
+    /* Card Section*/
+
+    #card-section {
+        width: 100%;
+        height: 700px;
+        background-color: #ebcdbd;
+
+    }
+
+    .card-heading {
+        font-weight: 200;
+        letter-spacing: 3px;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .event-explainer {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 100;
+        color: #000000;
+    }
+
+    .card-wrapper {
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .card {
+        display: inline;
+        padding: 30px;
+        margin: 2rem;
+        -moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+        -o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    .card:hover {
+        -webkit-transform: translate(0, -8px);
+        -moz-transform: translate(0, -8px);
+        -ms-transform: translate(0, -8px);
+        -o-transform: translate(0, -8px);
+        transform: translate(0, -8px);
+        box-shadow: 0 40px 40px rgba(0, 0, 0, 0.2);
+    }
+
+
+    .card-img-top {
+        height: 150px;
+        width: 90%;
+    }
+
+    .card-text {
+        font-family: 'Lato',
+            sans-serif;
+        font-size: 25px;
+
+    }
+
+    /* Social Links*/
+
+    .site-footer {
+        background-color: #1d2e40;
+        padding: 45px 0 20px;
+        font-size: 15px;
+        line-height: 24px;
+        color: #F3E8E7;
+    }
+
+    .site-footer hr {
+        border-top-color: #bbb;
+        opacity: 0.5
+    }
+
+    .site-footer hr.small {
+        margin: 20px 0
+    }
+
+    .site-footer h6 {
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-top: 5px;
+        letter-spacing: 2px
+    }
+
+    .site-footer a {
+        color: #F3E8E7;
+    }
+
+    .site-footer a:hover {
+        color: #3366cc;
+        text-decoration: none;
+    }
+
+    .footer-links {
+        padding-left: 0;
+        list-style: none
+    }
+
+    .footer-links li {
+        display: block
+    }
+
+    .footer-links a {
+        color: #F3E8E7;
+    }
+
+    .footer-links a:active,
+    .footer-links a:focus,
+    .footer-links a:hover {
+        color: #3366cc;
+        text-decoration: none;
+    }
+
+    .footer-links.inline li {
+        display: inline-block
+    }
+
+    .site-footer .social-icons {
+        text-align: right
+    }
+
+    .site-footer .social-icons a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin-left: 6px;
+        margin-right: 0;
+        border-radius: 100%;
+        background-color: #33353d
+    }
+
+    .copyright-text {
+        margin: 0
+    }
+
+
+    .social-icons {
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none
+    }
+
+    .social-icons li {
+        display: inline-block;
+        margin-bottom: 4px
+    }
+
+    .social-icons li.title {
+        margin-right: 15px;
+        text-transform: uppercase;
+        color: #96a2b2;
+        font-weight: 700;
+        font-size: 13px
+    }
+
+    .social-icons a {
+        background-color: #eceeef;
+        color: #818a91;
+        font-size: 16px;
+        display: inline-block;
+        line-height: 44px;
+        width: 44px;
+        height: 44px;
+        text-align: center;
+        margin-right: 8px;
+        border-radius: 100%;
+        -webkit-transition: all .2s linear;
+        -o-transition: all .2s linear;
+        transition: all .2s linear
+    }
+
+    .social-icons a:active,
+    .social-icons a:focus,
+    .social-icons a:hover {
+        color: #fff;
+        background-color: #29aafe
+    }
+
+    .social-icons.size-sm a {
+        line-height: 34px;
+        height: 34px;
+        width: 34px;
+        font-size: 14px
+    }
+
+    .social-icons a.facebook:hover {
+        background-color: #3b5998
+    }
+
+    .social-icons a.twitter:hover {
+        background-color: #00aced
+    }
+
+    .social-icons a.linkedin:hover {
+        background-color: #007bb6
+    }
+
+    .social-icons a.dribbble:hover {
+        background-color: #ea4c89
+    }
+
+
+    /*Key Benefits*/
+
+    #benefits-section {
+        height: 720px;
+        background-color: #ebcdbd;
+    }
+
+    .key-benefits {
+        height: 520px;
+    }
+
+    .key-benefits-header {
+        font-weight: 300;
+        letter-spacing: 3px;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .tutor-image {
+        display: block;
+        height: 550px;
+        width: 50%;
+        margin-top: -460px;
+        padding-top: 100px;
+        margin-left: 540px;
+
+    }
+
+    .benefits {
+        padding-top: 30px;
+        padding-right: 50px;
+        padding-left: 20px;
+        width: 90%;
+        margin-left: -290px;
+    }
+
+    .benefits-icon {
+        font-size: 30px;
+    }
+
+
+    .benefits-heading {
+        font-weight: 300;
+        padding-bottom: 10px;
+        font-size: 22px;
+    }
+
+    .benefits-info {
+        word-wrap: break-word;
+        font-weight: 200;
+        font-size: 20px;
+        color: #000000;
+        width: 50%;
+    }
+
+    /*Success Stories*/
+
+
+    .success-header h2 {
+        text-align: center;
+        color: #000000;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        font-weight: 200;
+        letter-spacing: 3px;
+        font-size: 50px;
+    }
+
+    .success-header h3 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 100;
+        color: #000000;
+
     }
 
     .card-box {
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
+        justify-content: center;
+        padding-bottom: 30px;
+        flex-direction: row;
+        flex-wrap: nowrap;
 
     }
 
-    .card3 {
-        display: none;
+    .card {
+        text-align: center;
+        margin: 3rem;
+
+
+    }
+
+    .card-img-top {
+        width: 200px;
+        text-align: center;
+    }
+
+    .card-title {
+        font-weight: 400;
+        font-size: 25px;
+
+    }
+
+    .card-text {
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    /*Free Resource*/
+
+    #free-resource {
+        background-image: url('../images/freeresource.png');
+        background-size: cover;
+        height: 600px;
+        width: 100%;
+    }
+
+    .form-header {
+        font-weight: 200;
+        letter-spacing: 3px;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        color: #cccccc;
+
+    }
+
+    .form-text {
+        color: #F3E8E7;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 100;
+
+    }
+
+    .form {
+        width: 40%;
+        display: block;
+        padding-top: 40px;
+        padding-left: 100px;
+        margin-left: -25px;
+
+    }
+
+    .form-control {
+        margin: 2rem;
+    }
+
+    .free-button {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        margin-left: -600px;
+
+    }
+
+    .btn-primary {
+        box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, .8);
+    }
+
+
+    /* Sign Up Form*/
+
+    .signupform {
+        width: 100%;
+        height: 600px;
+        background-color: #d7d5da;
+
+    }
+
+    .signupheader {
+        font-weight: 200;
+        letter-spacing: 3px;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .signuptext {
+        text-align: center;
+
+        font-size: 25px;
+        font-weight: 100;
     }
 
     .form-sign-up {
-        margin-left: 75px;
-        padding-top: 0px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 30px;
     }
 
     .free-button2 {
         display: flex;
         justify-content: center;
-        margin-left: 70px;
+    }
+
+    /* Pictures*/
+
+    #pictures {
+        height: 500px;
+        background-color: #1d2e40;
+    }
+
+    .picture-container {
+        margin: auto;
     }
 
     .picture1 {
-        display: none;
+        display: inline;
+        width: 50%;
+        height: 500px;
+        background-image: url("../images/signupphoto1.png");
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .picture2 {
+        width: 50%;
+        height: 500px;
+        background-image: url("../images/signup2.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    /* FAQs*/
+
+    .faqs {
         width: 100%;
-        height: 600px;
+        height: 150px;
     }
 
     .faqs-header {
-        padding-top: 120px;
+        font-weight: 200;
+        letter-spacing: 3px;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 50px;
 
-    }
-
-    .faqs {
-        height: 200px;
     }
 }
+
+/* media queries*/
+
+/*
+@media only screen and (max-width: 830px) {
+
+    .right-about-text-one {
+        display: none;
+    }
+}
+
+
+
+.navbar-collapse {
+    align-items: right;
+
+
+}
+
+
+.hero-image {
+    width: 100vh;
+}
+
+
+.more-button {
+    margin-left: 10px;
+
+
+}
+
+
+.hero-message {
+    inline-size: 150px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+}
+
+
+#right-about {
+    width: 30%;
+    margin-right: 30px;
+    padding-top: 0px;
+
+
+}
+
+
+#left-about {
+    width: 30%;
+    margin-right: 60px;
+}
+
+
+.left-about-heading {
+    margin-left: 10px;
+    width: 40%;
+}
+
+
+.right-about-heading {
+    margin-bottom: 30px;
+    width: 40%;
+}
+
+
+.left-about-text-one {
+    display: none;
+}
+
+
+.left-about-text-two {
+    display: none;
+}
+
+
+.right-about-text-one {
+    display: none;
+}
+
+
+.right-about-text-two {
+    display: none;
+}
+
+
+#center-about {
+    clear: both;
+    display: none;
+}
+
+
+.learn-more {
+    padding-bottom: 30px;
+    margin-top: 420px;
+    padding-top: 0;
+}
+
+
+hr {
+    display: none;
+}
+
+
+iframe {
+    width: 100%;
+}
+
+
+#card-section {
+    height: fit-content;
+
+
+}
+
+
+.card-wrapper {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+
+.event-explainer {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+#benefits-section {
+    height: 800px;
+}
+
+
+.col {
+    flex: none;
+}
+
+
+.benefits-info {
+    display: none;
+}
+
+
+#free-resource {
+    height: 650px;
+}
+
+
+.tutor-image {
+    height: 450px;
+    width: 50%;
+    margin-top: -220px;
+    margin-left: 270px;
+}
+
+
+.form-header,
+.form-text {
+    width: 50%;
+}
+
+
+.form-text {
+    padding-left: 20px;
+}
+
+
+.form {
+    margin-left: -90px;
+    width: 40%;
+}
+
+
+.free-button {
+    margin-left: -690px;
+}
+
+
+.card3 {
+    display: none;
+}
+
+
+.free-button2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.picture1 {
+    display: none;
+}
+
+
+.picture2 {
+    width: 100%;
+    height: 600px;
+}
+
+
+.faqs {
+    height: 200px;
+}
+
+
+.faqs-header {
+    padding-top: 120px;
+    height: 230px;
+}
+
+
+
+@media only screen and (min-width: 430px) and (max-width: 617px) {
+
+
+.tutor-image {
+margin-top: -150px;
+margin-left: 190px;
+}
+
+
+#benefits-section {
+height: 850px;
+}
+
+
+}
+
+
+.navbar-collapse {
+align-items: right;
+
+
+}
+
+
+.hero-image {
+width: 100vh;
+}
+
+
+.more-button {
+margin-left: 10px;
+
+
+}
+
+
+.hero-message {
+inline-size: 150px;
+padding-top: 50px;
+padding-bottom: 20px;
+margin-left: 30px;
+}
+
+
+#right-about {
+width: 30%;
+margin-right: 30px;
+padding-top: 0px;
+
+
+}
+
+
+#left-about {
+width: 30%;
+margin-right: 60px;
+}
+
+
+.left-about-heading {
+margin-left: 10px;
+width: 40%;
+}
+
+
+.right-about-heading {
+margin-bottom: 30px;
+width: 40%;
+}
+
+
+.left-about-text-one {
+display: none;
+}
+
+
+.left-about-text-two {
+display: none;
+}
+
+
+.right-about-text-one {
+display: none;
+}
+
+
+.right-about-text-two {
+display: none;
+}
+
+
+#center-about {
+clear: both;
+display: none;
+
+
+}
+
+
+.learn-more {
+padding-bottom: 30px;
+margin-top: 420px;
+padding-top: 0;
+}
+
+
+hr {
+display: none;
+}
+
+
+iframe {
+width: 100%;
+}
+
+
+#card-section {
+height: fit-content;
+
+
+}
+
+
+.card-wrapper {
+flex-direction: column;
+text-align: center;
+align-items: center;
+
+
+}
+
+
+.event-explainer {
+margin-left: 15px;
+margin-right: 15px;
+}
+
+
+#benefits-section {
+height: 800px;
+}
+
+
+.col {
+flex: none;
+}
+
+
+.key-benefits-header {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+
+.benefits-info {
+display: none;
+}
+
+
+#free-resource {
+height: 650px;
+}
+
+
+.tutor-image {
+height: 300px;
+width: 50%;
+margin-top: -70px;
+margin-left: 190px;
+}
+
+
+.form-header,
+.form-text {
+width: 50%;
+}
+
+
+.form-text {
+padding-left: 20px;
+}
+
+
+.form {
+margin-left: -90px;
+}
+
+
+.free-button {
+margin-left: -400px;
+}
+
+
+.success-stories-text {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+
+.card-box {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-content: center;
+
+
+}
+
+
+.card3 {
+display: none;
+}
+
+
+.free-button2 {
+display: flex;
+justify-content: center;
+}
+
+
+.picture1 {
+display: none;
+}
+
+
+.picture2 {
+width: 100%;
+height: 600px;
+}
+
+
+.faqs-header {
+padding-top: 120px;
+}
+
+
+.faqs {
+height: 200px;
+}
+}
+
+*/
