@@ -367,9 +367,9 @@ All Features were tested manually, find the results below.
 
 The website was tested in three browsers: Chrome, Firefox and Safari on Desktops, tablets and multiple mobile devices (macOS and Android).
 
-![Features\_testing](assets/images/readme/features\_testing.png)
+![Features\_testing](/assets/readme/milestoneonetesting.png)
 
-Testing results: [Excel](assets/testing\_doc/features\_testing.xlsx), [Numbers MacOS](assets/testing\_doc/feature\_testing.numbers).
+Testing results: [Excel](/assets/readme/Milestoneonetesting.xlsx), [Excel]]
 
 
 \## Automated Testing
@@ -388,31 +388,31 @@ CSS Stylesheet was run through CSS Validator. No errors were detected.
 
 Mobile
 
-![Mobile Home](assets/images/readme/home-lighthouse-mobile.png)
+![Mobile Home](/assets/readme/home-lighthouse-mobile.png)
 
 Desktop
 
-![Desktop Home](assets/images/readme/home-lighthouse.png)
+![Desktop Home](/assets/readme/home-lighthouse.png)
 
 \*\*Success Stories Page\*\*
 
 Mobile
 
-![Mobile Ph](assets/images/readme/success-stories-lighthouse-mobile.png)
+![Mobile Success Stories](/assets/readme/success-stories-lighthouse.png)
 
 Desktop
 
-![Desktop success stories](assets/images/readme/success-stories-lighthouse.png)
+![Desktop Success Stories](/assets/readme/success-stories-lighthouse.png)
 
 \*\*Signup Page\*\*
 
 Mobile
 
-![Mobile Signup](assets/images/readme/signup-lighthouse-mobile.png)
+![Mobile Signup](/assets/readme/signup-lighthouse-mobile.png)
 
 Desktop
 
-![Desktop Signup](assets/images/readme/signup-lighthouse.png)
+![Desktop Signup](/assets/readme/signup-lighthouse-mobile.png)
 
 \## Accessibility Testing
 
