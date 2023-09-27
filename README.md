@@ -388,41 +388,31 @@ CSS Stylesheet was run through CSS Validator. No errors were detected.
 
 Mobile
 
-![Mobile Home](assets/images/readme/lighth-home-mobile.png)
+![Mobile Home](assets/images/readme/home-lighthouse-mobile.png)
 
 Desktop
 
-![Desktop Home](assets/images/readme/lighth-home-desktop.png)
+![Desktop Home](assets/images/readme/home-lighthouse.png)
 
-\*\*Philosofy Page\*\*
+\*\*Success Stories Page\*\*
 
 Mobile
 
-![Mobile Ph](assets/images/readme/lighth-phil-mobile.png)
+![Mobile Ph](assets/images/readme/success-stories-lighthouse-mobile.png)
 
 Desktop
 
-![Desktop Ph](assets/images/readme/lighth-phil-desktop.png)
-
-\*\*Meetups Page\*\*
-
-Mobile
-
-![Mobile Meetups](assets/images/readme/lighth-meetups-mobile.png)
-
-Desktop
-
-![Desktop Meetups](assets/images/readme/lighth-meetups-desktop.png)
+![Desktop success stories](assets/images/readme/success-stories-lighthouse.png)
 
 \*\*Signup Page\*\*
 
 Mobile
 
-![Mobile Signup](assets/images/readme/lighth-signup-mobile.png)
+![Mobile Signup](assets/images/readme/signup-lighthouse-mobile.png)
 
 Desktop
 
-![Desktop Signup](assets/images/readme/lighth-signup-desktop.png)
+![Desktop Signup](assets/images/readme/signup-lighthouse.png)
 
 \## Accessibility Testing
 
@@ -434,25 +424,11 @@ The website was tested with [Screen Reader for Goggle Chrome](https://chrome.goo
 
 The website was tested with Toptal [Colorfilter](https://www.toptal.com/designers/colorfilter/) to make sure it is accessible for colour-blind users. No accessibility issues were detected.
 
-[Result preview 1](https://www.toptal.com/designers/colorfilter?orig\_uri=https://oks-erm.github.io/sofing/index.html&process\_type=protan)
+[Result preview 1](https://www.toptal.com/designers/colorfilter?orig_uri=https://mattjones444.github.io/Code-Institute/&process_type=protan)
 
-[Result preview 2](https://www.toptal.com/designers/colorfilter?orig\_uri=https://oks-erm.github.io/sofing/index.html&process\_type=deutan)
+[Result preview 2](https://www.toptal.com/designers/colorfilter?orig_uri=https://mattjones444.github.io/Code-Institute/success-stories.html&process_type=protan)
 
-[Result preview 3](https://www.toptal.com/designers/colorfilter?orig\_uri=https://oks-erm.github.io/sofing/index.html&process\_type=tritan)
-
-[Result preview 4](https://www.toptal.com/designers/colorfilter?orig\_uri=https://oks-erm.github.io/sofing/index.html&process\_type=grey)
-
-However, a layout bug was found, which did not appear at any other stage.
-
-![Bug](assets/images/readme/button-bug.png)
-
-\## Detected Issues and Resolutions
-
-A bug with the "SIGN UP" button on the Home page was detected during the testing with Toptal [Colorfilter](https://www.toptal.com/designers/colorfilter/). However, it did not appear on any device, browser or screen size during other testing stages. I struggled to "achieve" the same result to be able to resolve it when finally it was detected again on the mobile device with activated accessibility tools. Interestingly, my phone with accessibility tools on did not produce the bug.  
-
-![Bug](assets/images/readme/bug.png)
-
-The reason for this bug was a padding conflict. It was fixed by reconsidering paddings and margins in the block. I tested it via Toptal Colorfilter because I was not able to access this bug any other way. 
+[Result preview 3](https://www.toptal.com/designers/colorfilter?orig_uri=https://mattjones444.github.io/Code-Institute/signup.html&process_type=protan)
 
 \_\_\_
 
@@ -462,7 +438,7 @@ This project was deployed to GitHub pages. The steps to deploy are as follows:
 
 1\. Log into GitHub.
 
-2\. Select `sofing` from the list of repositories.
+2\. Select `codeinstitute` from the list of repositories.
 
 3\. Select `Settings` From the Repositories sub-headings.
 
@@ -478,49 +454,11 @@ This project was deployed to GitHub pages. The steps to deploy are as follows:
 
 9\. Click on the link to go to the live deployed page.
 
-The live link can be found [here](https://oks-erm.github.io/sofing).
-
-\## How to run this project Locally
-
-\- \*\*Clone the repository\*\*
-
-1\. Navigate to the GitHub Repository `oks-erm/sofing`.
-
-2\. Click the `Code` drop-down menu.
-
-3\. Click the `HTTPS` sub-heading under the `Clone` heading.
-
-4\. Copy the link.
-
-5\. Open an IDE of your choice (VSCode, Atom, Komodo, etc).
-
-6\. Open a terminal in the directory of your choice, type `git clone` and paste the link.
-
-7\. A clone of the repository will now be created on your machine.
-
-\- \*\*Download the repository manually\*\*
-
-1\. Navigate to the GitHub Repository `oks-erm/sofing`.
-
-2\. Click the `Code` drop-down menu.
-
-3\. Click `Download ZIP`.
-
-4\. Locate the ZIP file and extract it to a folder where you want the repository to be stored. 
-
-5\. Open an IDE of your choice (VSCode, Atom, Komodo, etc).
-
-6\. Navigate to the directory where the repository was extracted.
-
-7\. Now you will have the contents of the project available offline on your machine.
 
 \_\_\_
 
 \# Credits
 
-\## Content
-
-The concept and the text used on the website are produced by me. Little fragments of the text could be found [here](https://www.trendhunter.com/trends/a-new-extreme-sport-sofing), as they were earlier published by my friend Hernando Gomez Salinas. He tried to start it off as a meme, but it took root only in the Spanish speaking community and not for long. I would like to give it a second chance.
 
 \## Media
 
@@ -554,15 +492,8 @@ The concept and the text used on the website are produced by me. Little fragment
 
 \- Implementation of Flexbox and Grid was assisted by [CSS Tricks](https://css-tricks.com).
 
-\- Code snippets for iplementation of "hamburger menu" were taken from [here](https://alvarotrigo.com/blog/hamburger-menu-css-responsive/) and [here](https://codepen.io/erikterwan/pen/EVzeRP) and modified.
 
 \- Code snippet for the links hover effect is taken from [CSS Tricks](https://css-tricks.com/css-link-hover-effects/) and modified.
-
-\- Code snippet for the "Choose your country" field is taken from [here](https://www.technicalkeeda.com/html-tutorials/all-countries-drop-down-list-in-html).
-
-\- Code snippet for the speech bubble was taken from [here](https://freefrontend.com/css-speech-bubbles/) and modified.
-
-\- Code snippet for the gradient effect for text was taken from [CSS Tricks](https://css-tricks.com/snippets/css/gradient-text/) and modified.
 
 \- Guidance on HTML attributes and common conventions were obtained from [W3Schools](https://www.w3schools.com/) and [Mozilla's Web Documentation](https://developer.mozilla.org/en-US/).
 
