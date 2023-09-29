@@ -785,7 +785,7 @@ iframe {
     }
 
     #left-about {
-        width: 45%;
+        width: 40%;
         margin-right: 60px;
         margin-top: 20px;
         margin-left: 55px;
@@ -848,28 +848,55 @@ iframe {
 
 @media screen and (min-width: 410px) {
 
+    .learn-more {
+        text-align: center;
+        padding-top: 40px;
+        margin-top: 20px;
+        margin-right: 500px;
+        margin-left: 70px;
+
+    }
+
     .tutor-image {
         display: block;
         height: 200px;
         width: 60%;
-        margin-top: -10px;
-        margin-left: 90px;
+        margin-top: -40px;
+        margin-left: 120px;
     }
 }
 
 @media screen and (min-width: 600px) {
 
+    .learn-more {
+        text-align: center;
+        padding-top: 40px;
+        margin-top: 20px;
+        margin-right: 500px;
+        margin-left: 70px;
+
+    }
+
     .tutor-image {
         display: block;
         height: 300px;
         width: 60%;
-        margin-top: -150px;
-        margin-left: 190px;
+        margin-top: -100px;
+        margin-left: 130px;
     }
 }
 
 
 @media screen and (min-width: 1012px) {
+
+    .learn-more {
+        text-align: center;
+        padding-top: 40px;
+        margin-top: 20px;
+        margin-right: 500px;
+        margin-left: 400px;
+
+    }
 
     #benefits-section {
         height: 720px;
@@ -894,7 +921,7 @@ iframe {
         height: 400px;
         width: 60%;
         margin-top: -300px;
-        margin-left: 430px;
+        margin-left: 410px;
 
     }
 
@@ -903,7 +930,7 @@ iframe {
         padding-right: 50px;
         padding-left: 20px;
         width: 90%;
-        margin-left: -290px;
+        margin-left: -250px;
     }
 
     .benefits-icon {
@@ -926,7 +953,31 @@ iframe {
     }
 }
 
+@media screen and (min-width: 1062px) {
+
+    .tutor-image {
+        display: block;
+        height: 550px;
+        width: 50%;
+        margin-top: -420px;
+        padding-top: 100px;
+        margin-left: 450px;
+
+    }
+
+}
+
+
 @media screen and (min-width: 1125px) {
+
+    .learn-more {
+        text-align: center;
+        padding-top: 40px;
+        margin-top: 20px;
+        margin-right: 500px;
+        margin-left: 150px;
+
+    }
 
     #card-section {
         width: 100%;
@@ -984,6 +1035,16 @@ iframe {
         font-family: 'Lato',
             sans-serif;
         font-size: 25px;
+
+    }
+
+    .tutor-image {
+        display: block;
+        height: 550px;
+        width: 50%;
+        margin-top: -460px;
+        padding-top: 100px;
+        margin-left: 570px;
 
     }
 
@@ -1053,7 +1114,7 @@ iframe {
     }
 
     .hero-image {
-        background: url(../images/heroimage.jpg) no-repeat center center;
+        background: url(../images/heroimage.avif) no-repeat center center;
         width: 100%;
         height: 450px;
         background-size: cover;
@@ -1463,16 +1524,16 @@ iframe {
         width: 50%;
         margin-top: -460px;
         padding-top: 100px;
-        margin-left: 650px;
+        margin-left: 600px;
 
     }
 
     .benefits {
         padding-top: 30px;
         padding-right: 50px;
-        padding-left: 20px;
+        padding-left: 40px;
         width: 90%;
-        margin-left: -290px;
+        margin-left: -380px;
     }
 
     .benefits-icon {
@@ -1660,7 +1721,7 @@ iframe {
     .picture2 {
         width: 50%;
         height: 500px;
-        background-image: url("../images/signup2.png");
+        background-image: url("../images/signup2.avif");
         background-size: cover;
         background-repeat: no-repeat;
     }
