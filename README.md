@@ -388,31 +388,31 @@ CSS Stylesheet was run through CSS Validator. No errors were detected.
 
 Mobile
 
-![Mobile Home](/assets/readme/home-lighthouse-mobile.png)
+![Mobile Home](/assets/readme/home-mobile.png)
 
 Desktop
 
-![Desktop Home](/assets/readme/home-lighthouse.png)
+![Desktop Home](/assets/readme/home-desktop.png)
 
 \*\*Success Stories Page\*\*
 
 Mobile
 
-![Mobile Success Stories](/assets/readme/success-stories-lighthouse.png)
+![Mobile Success Stories](/assets/readme/success-stories-mobile.png)
 
 Desktop
 
-![Desktop Success Stories](/assets/readme/success-stories-lighthouse.png)
+![Desktop Success Stories](/assets/readme/success-stories-desktop.png)
 
 \*\*Signup Page\*\*
 
 Mobile
 
-![Mobile Signup](/assets/readme/signup-lighthouse-mobile.png)
+![Mobile Signup](/assets/readme/signup-mobile.png)
 
 Desktop
 
-![Desktop Signup](/assets/readme/signup-lighthouse-mobile.png)
+![Desktop Signup](/assets/readme/success-stories-desktop.png)
 
 \## Accessibility Testing
 
