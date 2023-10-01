@@ -319,7 +319,7 @@ The website was tested in three browsers: Chrome, Firefox and Safari on Desktops
 
 ![Features\_testing](/assets/readme/milestoneonetesting.png)
 
-![Feature Testing results:] [Excel] (/assets/readme/milestoneonetesting.xlsx), [Excel]]
+![Features Testing results:] [Excel](/assets/readme/Milestoneonetesting.xlsx), [Excel]]
 
 
 \## Automated Testing
