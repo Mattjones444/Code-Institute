@@ -184,9 +184,7 @@ As the Home Page consists of multiple colourful overlapping blocks, it was impor
 
 \#### Logo and Page Headings Gradient
 
-Pocket Tutor does not have a logo at the moment. Hence, the text logo was established. Although the font provided the style, it still looked rather bland, flat and intensively dull in default text colours and illegible or inappropriate when executed in colours. Thus, it was decided to implement a gradient of [Charcoal](#shades-of-charcoal-grey) and [Reef](#reef). A similar gradient was later applied to the Philosofy Page Heading and the Meetups Page Heading, but based on [Coral](#coral), to maintain the colour palette.   
-
-
+Pocket Tutor does not have a logo at the moment. Hence, the text logo was established. Although the font provided the style, it still looked rather bland, flat and intensively dull in default text colours and illegible or inappropriate when executed in colours.   
 
 \#### Buttons
 
