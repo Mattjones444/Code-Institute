@@ -309,7 +309,7 @@ Currently, on submission of the Sign-Up form, the data goes to the form dump, so
 
 \## User Story Testing
 
-User Testing results: [Excel](/assets/readme/usertesting.xlsx), [Excel]]
+![User Testing results:] [Excel](/assets/readme/usertesting.xlsx), [Excel]]
 
 \## Feature Testing
 
@@ -317,9 +317,9 @@ All Features were tested manually, find the results below.
 
 The website was tested in three browsers: Chrome, Firefox and Safari on Desktops, tablets and multiple mobile devices (macOS and Android).
 
-![Features\_testing](/assets/readme/))
+![Features\_testing](/assets/readme/milestoneonetesting.png)
 
-Testing results: [Excel](/assets/readme/milestoneonetesting.xlsx), [Excel]]
+Testing results: [Excel] (/assets/readme/milestoneonetesting.xlsx), [Excel]]
 
 
 \## Automated Testing
