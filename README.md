@@ -204,34 +204,20 @@ The navbar includes a hover-over effect to make the experience more interactive 
 
 \- \*\*Navigation bar\*\*
 
-![Nav1](assets/images/readme/nav1.png)
-
 Each page has a full responsive navigation bar at the top. It includes the Logo (which is a link to the Home page) and the links to Home, Success Stories and Signup pages. It retains an identical layout throughout the website across all devices to ensure \*\*simple and intuitive navigation\*\*. The Navbar will allow the user to reach any section of the website from any point on the website without unnecessary steps and using browser navigation buttons.             
 
-![Nav1](assets/images/readme/nav2.png)
 
 For mobile devices, it transforms into a compact "hamburger menu". This dropdown menu features the same items, displayed as a column on a semi-transparent background.  
 
 \- \*\*Hero image\*\*
 
-![Hero](assets/images/readme/hero.png)
-
 This section is the first thing the user sees opening each page, it is an eye-catching image for aesthetical stimulation, which also helps to deliver the page's semantics as visual associations are commonly very strong. On the Home page, it also includes an attractive, clear explanation with key selling points to help the user understand the purpose of the website.
 
-![Hero1]
-
-
-On the other pages, it does not include any overlay. All images are selected to correlate with the website's colour palette and contribute to the aesthetic impact of the design, delivering semantics of the section and achieving purposes such as comical effect. Every image is followed by the section heading, executed in the colour scheme of the block representing this page on the Home page. 
-
 \- \*\*Why Choose Us section\*\*
-
-![Ethos](assets/images/readme/ethos.png)
 
 The ethos section will introduce the user to the concept of Pocket Tutor, as it is slightly different to the usual way tutoring works. The user will be introduced to the moto, given a little preview of the benefits of signing up to Pocket Tutor and invited to learn more by accessing the sign up page, which will book a call with the Sales Team.
 
 \- \*\*Benefits of Online Tutoring section\*\*
-
-![Training](assets/images/readme/training.png)
 
 Often, clients will choose in-person tutoring over online tutoring, this section explains the benefits of choosing online tutoring. This was deliberately presented as a video, as it reassures clients that there is a human aspect to the service. By one of the tutors presenting the benefits, potential clients are also reassured that the people working with their children have the correct experience. 
 
@@ -239,25 +225,17 @@ Often, clients will choose in-person tutoring over online tutoring, this section
 
 \*\*Our Events\*\*
 
-![Activities](assets/images/readme/activities.png)
-
 This section is designed to promote the events that clients can attend, as part of their subscription, to support their children with enjoying learning. The events ensure that users have a reason to return to the site, in order to check the dates of events running, and to sign up to them. It gives the user increased value for their subscription and helps to widen the potential base of clients as some events will periodically be made free to attend. 
 
 \- \*\*Footer\*\*
-
-![Footer](assets/images/readme/footer.png)
 
 The Footer contains the links to the social media and allows the user to continue engagement with the company on various platforms. 
 
 \- \*\*Success Stories page\*\*
 
-![Philosofy](assets/images/readme/philosophy.png)
-
 This page contains a more in-depth explanation of the features of the subscription and sets out the products that clients will have access to. It also reiterates the concept of choosing online, rather than in-person tutoring and how this will benefit their family life. It also features some success stories from current users who have been supported by Pocket Tutor. This has been included to promote the services provide and to provide ‘real-life’ accounts of how the product has helped their children. In order to create a database of potential clients, users can sign up to receive a free resource at the bottom of the page. This serves as a way increase subscriptions to the site and also for users to see an example of the resources they would have access to. 
 
 \- \*\*Signup page\*\*
-
-![Signup](assets/images/readme/signup.png)
 
 This page will allow the user to sign up to Pocket Tutor and subscribe to the service/product. The page contains the form, where the user will be asked to submit their full name and email address and to give a brief explanation of the areas that their child needs support with. 
 
@@ -322,7 +300,6 @@ Currently, on submission of the Sign-Up form, the data goes to the form dump, so
 
 \- [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS code.
 
-\- [Markdown Tables Generator](https://www.tablesgenerator.com/) to generate tables for the readme file.
 
 \- Code Institute's Gitpod Template to generate the workspace for the project.
 
@@ -332,34 +309,7 @@ Currently, on submission of the Sign-Up form, the data goes to the form dump, so
 
 \## User Story Testing
 
-| Expectations                                                                                 | Realisation                                                                                                                                                                                                                                                                                                                                                                                                                          |
-
-\|----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
-| \*\*As a first time user:\*\*                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-
-| I want to easily understand the main purpose <br>of the site and learn more about the topic. | 1. On the Home Page, the user is presented with a logo, <br>a meaningful hero image, conveying the ethos, and selling <br>points, with relevant icons, on the first screen.<br><br>2. The Home page provides a complete overview of the topic: <br><br>each page of the website is represented by its own block and <br>ethos block appears on the second screen and includes a CTA <br>button, that invites the user to learn more.  |
-
-| I want to be able to easily navigate <br>and find content.                                   | 1. The sticky Navbar allows the user to easily navigate and<br>reach any point of the website from any other point.<br><br>2. All external links open in a new tab.                                                                                                                                                                                                                                                                  |
-
-| I want to find ways to join the community <br>and follow the movement on social media.       | 1. The Signup section of the Home page and the Signup page<br>allow the user to join the club.<br><br>2. The Footer contains the links to the social media and <br>allows the user to continue engagement with the movement <br>on various platforms.                                                                                                                                                                                |
-
-| I want to be amused.                                                                         | 1. The imagery helps to achieve a comical effect from first<br>sight.<br><br>2. The text content is absurd and unexpected.<br><br>3. The website has "an easter egg" to make the user smile<br>and surprise them.                                                                                                                                                                                                                    |
-
-| \*\*As a returning and frequent user:\*\*                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-
-| I want to find up-to-date information <br>about events and meetings.                         | 1. The Meetups page provides up-to-date information about <br>local meetups and practice sessions and allows the user to <br>contact local representatives via phone call.                                                                                                                                                                                                                                                           |
-
-| I want to contact the movement <br>to request additional information.                    | 1. The Footer contains the links to the social media to contact<br>the movement there.<br><br>2. The Meetups page includes phone numbers of local <br><br>representatives.                                                                                                                                                                                                                                                       |
-
-| I want to join the community.                                                                | 1. The Signup section of the Home page and the Signup page<br>allow the user to join the club.<br><br>2. The Activities section on the Home page includes information<br>about available activities and links to continue engagement<br>on different platforms.                                                                                                                                                                      |
-
-| I want to find information about training <br>programs and self-development in the field.    | 1. The Training section of the Home page and the Training link <br>of the Navbar inform about the availability of training programs and<br>lead to the Bootcamp Website.                                                                                                                                                                                                                                                                 |
-
-| \*\*All users:\*\*                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-
-| want to be able to access and comfortably <br>view the website on mobile devices.            | 1. The website is fully responsive on all screen sizes and <br>resolutions starting from 350px.<br><br>2. Mobile performance is considered by providing lighter images<br>for the mobile version.<br><br>3. The website is designed following the mobile-first approach<br>to ensure that mobile users receive quality, not reduced<br>experience.                                                                                |
-
+User Testing results: [Excel](/assets/readme/usertesting.xlsx), [Excel]]
 
 \## Feature Testing
 
@@ -367,7 +317,7 @@ All Features were tested manually, find the results below.
 
 The website was tested in three browsers: Chrome, Firefox and Safari on Desktops, tablets and multiple mobile devices (macOS and Android).
 
-![Features\_testing](/assets/readme/milestoneonetesting.png)
+![Features\_testing](/assets/readme/))
 
 Testing results: [Excel](/assets/readme/milestoneonetesting.xlsx), [Excel]]
 
@@ -462,29 +412,7 @@ This project was deployed to GitHub pages. The steps to deploy are as follows:
 
 \## Media
 
-\- hero-image.webp is by @littlehenrabi from [iStock](https://istockphoto.com).
-
-\- training.webp is by @inside-weather from [Unsplash](https://unsplash.com).
-
-\- act1.webp is by Carlos Muchado from [Unsplash](https://unsplash.com).
-
-\- act2.webp is by Franck Boston from [iStock](https://istockphoto.com).
-
-\- act3.webp is by @4x6 from [iStock](https://istockphoto.com).
-
-\- signup-section.webp is by Paul Weaver from [Unsplash](https://unsplash.com).
-
-\- signup.webp is by Alexis Antoine from [Unsplash](https://unsplash.com).
-
-\- meetups.webp is by Ben Lambert from [Unsplash](https://unsplash.com).
-
-\- philosofy.webp is by Guven Gunes from [Unsplash](https://unsplash.com).
-
-\- philosofy1.webp is by Logan Cameron from [Unsplash](https://unsplash.com).
-
-\- philosofy2.webp is by Juan Gomez from [Unsplash](https://unsplash.com).
-
-\- philosofy3.webp is by Alina Levkovich from [Unsplash](https://unsplash.com).
+\- all images were sourced from Canva.com
 
 \- favicon.ico was created by me. 
 
