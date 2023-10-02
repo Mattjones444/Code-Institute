@@ -382,6 +382,16 @@ The website was tested with Toptal [Colorfilter](https://www.toptal.com/designer
 
 \# Deployment
 
+This project was hosted on Github. A repository was created by:
+
+1\. Navigate to Github.com and login.
+
+2\. On the left-hand sidebar, click the 'New' button.
+
+3\. Name the repository and click on the 'Create Repository' button. 
+
+During the creation of the project, the 'git add .', 'git commit -m', 'git push' and 'git pull' commands were used. 
+
 This project was deployed to GitHub pages. The steps to deploy are as follows:
 
 1\. Log into GitHub.
@@ -390,18 +400,9 @@ This project was deployed to GitHub pages. The steps to deploy are as follows:
 
 3\. Select `Settings` From the Repositories sub-headings.
 
-4\. In the left side menu select `Pages` from `Code and automation` section.
+4\. In the left side menu select `Pages`.
 
-5\. Under the `Source` heading in the dropdown menu select `main`.
-
-6\. A second drop-down menu should remain with the default value `/(root)`.
-
-7\. Press `Save`.
-
-8\. A message that the website is ready to be deployed will appear, refresh the page and the link to the deployed site will be available in a green sub-section on the top of the page.
-
-9\. Click on the link to go to the live deployed page.
-
+5\. Click on the link labelled 'Visit Site' to go to the live deployed page.
 
 \_\_\_
 
@@ -421,12 +422,12 @@ This project was deployed to GitHub pages. The steps to deploy are as follows:
 
 \- Code snippet for the links hover effect is taken from [CSS Tricks](https://css-tricks.com/css-link-hover-effects/) and modified.
 
+\- Code snippet for the 'Why Choose Us' section was inspired by code from CodeInsitute and modified.
+
 \- Guidance on HTML attributes and common conventions were obtained from [W3Schools](https://www.w3schools.com/) and [Mozilla's Web Documentation](https://developer.mozilla.org/en-US/).
 
 \- Understanding of shadows was obtained from [W3Schools](https://www.w3schools.com/).
 
 \## Acknowledgements
 
-I would like to thank my mentor, Ronan McClelland, for his guidance, moral support, inspiration, invaluable advice and sense of humour.
-
-Thanks to Slack Community for answering all my questions before I asked them.
+I would like to thank my mentor, Ronan McClelland, for his guidance and invaluable advice and sense of humour.
