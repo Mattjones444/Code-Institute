@@ -70,7 +70,6 @@ li a:hover {
 
 }
 
-
 .hero-message {
     font-size: 40px;
     font-weight: 400;
@@ -89,13 +88,9 @@ li a:hover {
     margin-left: 100px;
 }
 
-
 .more-button {
     margin-left: 10px;
-
-
 }
-
 
 .hero-message {
     inline-size: 150px;
@@ -113,11 +108,9 @@ li a:hover {
     padding-bottom: 20px;
 }
 
-
 #club-ethos {
     height: 170px;
 }
-
 
 #right-about {
     width: 30%;
@@ -125,8 +118,6 @@ li a:hover {
     padding-top: 20px;
     margin-right: 20px;
     float: right;
-
-
 }
 
 #left-about {
@@ -150,7 +141,6 @@ li a:hover {
     color: #6e6969;
 }
 
-
 .right-about-heading {
     margin-bottom: 0px;
     width: 50%;
@@ -164,39 +154,31 @@ li a:hover {
     color: #6e6969;
 }
 
-
 .left-about-text-one {
     display: none;
 }
-
 
 .left-about-text-two {
     display: none;
 }
 
-
 .right-about-text-one {
     display: none;
 }
 
-
 .right-about-text-two {
     display: none;
 }
-
 
 #center-about {
     clear: both;
     display: none;
 }
 
-
 .learn-more {
     padding-bottom: 30px;
     margin-top: 460px;
-
 }
-
 
 hr {
     display: none;
@@ -207,7 +189,6 @@ hr {
 #why-online {
     background-color: #d7d5da;
     clear: both;
-
 }
 
 .why-online-tutoring {
@@ -222,14 +203,11 @@ hr {
 iframe {
     margin-bottom: 90px;
     border: 50px solid #1d2e40;
-
 }
-
 
 iframe {
     width: 100%;
 }
-
 
 /* Our Events */
 
@@ -237,7 +215,6 @@ iframe {
     width: 100%;
     height: 1450px;
     background-color: #ebcdbd;
-
 }
 
 .card-heading {
@@ -278,7 +255,6 @@ iframe {
     box-shadow: 0 40px 40px rgba(0, 0, 0, 0.2);
 }
 
-
 .card-img-top {
     height: 150px;
     width: 90%;
@@ -288,16 +264,14 @@ iframe {
 .card-body {
     font-size: 25px;
     color: #000000;
+    font-weight: 300;
 
 }
-
 
 .card-wrapper {
     flex-direction: column;
     text-align: center;
     align-items: center;
-
-
 }
 
 /* footer */
@@ -377,7 +351,6 @@ iframe {
 .copyright-text {
     margin: 0
 }
-
 
 .social-icons {
     padding-left: 0;
@@ -469,7 +442,6 @@ iframe {
     padding-bottom: 20px;
 }
 
-
 .tutor-image {
     display: block;
     height: 200px;
@@ -485,7 +457,6 @@ iframe {
 .benefits {
     padding-bottom: 20px;
 }
-
 
 .key-benefits-header {
     padding-left: 20px;
@@ -535,8 +506,6 @@ iframe {
 .card {
     text-align: center;
     margin: 3rem;
-
-
 }
 
 .card-img-top {
@@ -547,7 +516,6 @@ iframe {
 .card-title {
     font-weight: 400;
     font-size: 25px;
-
 }
 
 .card-text {
@@ -557,6 +525,7 @@ iframe {
 }
 
 /* Free Resource Section */
+
 #free-resource {
     height: 800px;
 }
@@ -576,7 +545,6 @@ iframe {
     padding-top: 30px;
     padding-bottom: 20px;
     color: #cccccc;
-
 }
 
 .form-text {
@@ -584,7 +552,6 @@ iframe {
     text-align: center;
     font-size: 25px;
     font-weight: 100;
-
 }
 
 .form {
@@ -593,7 +560,6 @@ iframe {
     padding-top: 20px;
     padding-left: 100px;
     margin-left: 60px;
-
 }
 
 .form-control {
@@ -605,7 +571,6 @@ iframe {
     padding-top: 10px;
     padding-bottom: 30px;
     margin-left: -80px;
-
 }
 
 .btn-primary {
@@ -641,8 +606,6 @@ iframe {
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-
-
 }
 
 
@@ -669,7 +632,6 @@ iframe {
     width: 100%;
     height: 580px;
     background-color: #d7d5da;
-
 }
 
 .signupheader {
@@ -709,7 +671,6 @@ iframe {
     margin: auto;
 }
 
-
 .picture2 {
     width: 50%;
     height: 500px;
@@ -729,27 +690,20 @@ iframe {
     font-size: 50px;
     text-align: center;
     padding-top: 50px;
-
 }
-
 
 .picture1 {
     display: none;
 }
-
 
 .picture2 {
     width: 100%;
     height: 600px;
 }
 
-
 .faqs-header {
     padding-top: 120px;
-
-
 }
-
 
 .faqs {
     height: 200px;
@@ -768,11 +722,9 @@ iframe {
         padding-bottom: 20px;
     }
 
-
     #club-ethos {
         height: 170px;
     }
-
 
     #right-about {
         width: 35%;
@@ -780,8 +732,6 @@ iframe {
         padding-top: 20px;
         margin-right: -10px;
         float: right;
-
-
     }
 
     #left-about {
@@ -805,7 +755,6 @@ iframe {
         color: #6e6969;
     }
 
-
     .right-about-heading {
         margin-bottom: 0px;
         width: 50%;
@@ -819,7 +768,6 @@ iframe {
         color: #6e6969;
     }
 
-
     .left-about-text-one,
     .left-about-text-two,
     .right-about-text-one,
@@ -827,13 +775,10 @@ iframe {
         display: contents;
     }
 
-
     .learn-more {
         padding-bottom: 30px;
         margin-top: 460px;
         margin-right: 250px;
-
-
     }
 
     .learn-more-button {
@@ -854,7 +799,6 @@ iframe {
         margin-top: 450px;
         margin-right: 50px;
         margin-left: 0px;
-
     }
 
     .tutor-image {
@@ -865,18 +809,17 @@ iframe {
         margin-left: 120px;
     }
 
-     .form {
+    .form {
         margin-left: -70px;
         width: 50%;
         margin-top: 0px;
     }
 
-     .free-button {
+    .free-button {
         text-align: center;
         padding-top: 10px;
         padding-bottom: 30px;
         margin-left: -280px;
-        
     }
 }
 
@@ -888,7 +831,6 @@ iframe {
         margin-top: 950px;
         margin-right: 500px;
         margin-left: 70px;
-
     }
 
     .tutor-image {
@@ -899,18 +841,17 @@ iframe {
         margin-left: 130px;
     }
 
-     .form {
+    .form {
         margin-left: -70px;
         width: 50%;
         margin-top: 0px;
     }
 
-     .free-button {
+    .free-button {
         text-align: center;
         padding-top: 10px;
         padding-bottom: 30px;
         margin-left: -320px;
-        
     }
 }
 
@@ -925,26 +866,25 @@ iframe {
     }
 
     .hero-message {
-    font-size: 40px;
-    font-weight: 400;
-    color: #1d2e40;
-    padding-top: 120px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-}
+        font-size: 40px;
+        font-weight: 400;
+        color: #1d2e40;
+        padding-top: 120px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
 
-.form {
+    .form {
         margin-left: -70px;
         width: 50%;
         margin-top: 0px;
     }
 
-     .free-button {
+    .free-button {
         text-align: center;
         padding-top: 10px;
         padding-bottom: 30px;
         margin-left: -320px;
-        
     }
 
 }
@@ -952,31 +892,30 @@ iframe {
 @media screen and (min-width: 837px) {
 
     .hero-message {
-    font-size: 40px;
-    font-weight: 400;
-    color: #1d2e40;
-    padding-top: 120px;
-    padding-left: 20px;
-    margin-left: 90px;
-    padding-bottom: 20px;
-}
+        font-size: 40px;
+        font-weight: 400;
+        color: #1d2e40;
+        padding-top: 120px;
+        padding-left: 20px;
+        margin-left: 90px;
+        padding-bottom: 20px;
+    }
 
-.more-button{
-    margin-left: 40px;
-}
+    .more-button {
+        margin-left: 40px;
+    }
 
- .form {
+    .form {
         margin-left: -70px;
         width: 40%;
         margin-top: 0px;
     }
 
-     .free-button {
+    .free-button {
         text-align: center;
         padding-top: 10px;
         padding-bottom: 30px;
         margin-left: -500px;
-
     }
 }
 
@@ -989,7 +928,6 @@ iframe {
         margin-top: 20px;
         margin-right: 500px;
         margin-left: 230px;
-
     }
 
     #benefits-section {
@@ -1016,7 +954,6 @@ iframe {
         width: 60%;
         margin-top: -300px;
         margin-left: 410px;
-
     }
 
     .benefits {
@@ -1046,19 +983,18 @@ iframe {
         width: 50%;
     }
 
-     .form {
+    .form {
         margin-left: -70px;
         width: 40%;
         margin-top: 0px;
     }
 
-     .free-button {
+    .free-button {
         text-align: center;
         padding-top: 10px;
         padding-bottom: 30px;
         margin-left: -500px;
         margin-right: 220px;
-
     }
 }
 
@@ -1071,26 +1007,23 @@ iframe {
         margin-top: -420px;
         padding-top: 100px;
         margin-left: 450px;
-
     }
 
-     .form {
+    .form {
         margin-left: -70px;
         width: 40%;
         margin-top: 0px;
     }
 
-     .free-button {
+    .free-button {
         text-align: center;
         padding-top: 10px;
         padding-bottom: 30px;
         margin-left: -500px;
         margin-right: 220px;
-
     }
 
 }
-
 
 @media screen and (min-width: 1125px) {
 
@@ -1100,14 +1033,12 @@ iframe {
         margin-top: 20px;
         margin-right: -500px;
         margin-left: 150px;
-
     }
 
     #card-section {
         width: 100%;
         height: 700px;
         background-color: #ebcdbd;
-
     }
 
     .card-heading {
@@ -1149,7 +1080,6 @@ iframe {
         box-shadow: 0 40px 40px rgba(0, 0, 0, 0.2);
     }
 
-
     .card-img-top {
         height: 150px;
         width: 90%;
@@ -1159,7 +1089,7 @@ iframe {
         font-family: 'Lato',
             sans-serif;
         font-size: 25px;
-
+        font-weight: 300;
     }
 
     .tutor-image {
@@ -1169,7 +1099,6 @@ iframe {
         margin-top: -460px;
         padding-top: 100px;
         margin-left: 570px;
-
     }
 
     .form {
@@ -1178,13 +1107,12 @@ iframe {
         margin-top: 0px;
     }
 
-     .free-button {
+    .free-button {
         text-align: center;
         padding-top: 10px;
         padding-bottom: 30px;
         margin-left: -500px;
         margin-right: 220px;
-
     }
 
 }
@@ -1196,7 +1124,6 @@ iframe {
 
     .navbar-dark {
         background-color: #1d2e40 !important;
-
     }
 
     a.nav-link {
@@ -1204,7 +1131,6 @@ iframe {
         font-size: 27px;
         font-family: 'Lato',
             sans-serif;
-
     }
 
     .logo {
@@ -1225,7 +1151,6 @@ iframe {
 
     .navbar-brand:hover {
         color: #ae9092 !important;
-
     }
 
     li a:hover {
@@ -1234,7 +1159,6 @@ iframe {
 
     .navbar {
         min-width: 255px;
-
     }
 
     .nav-item {
@@ -1257,7 +1181,6 @@ iframe {
         width: 100%;
         height: 450px;
         background-size: cover;
-
     }
 
 
@@ -1292,7 +1215,6 @@ iframe {
         padding-bottom: 20px;
     }
 
-
     #club-ethos {
         height: 100px;
     }
@@ -1320,7 +1242,6 @@ iframe {
         width: 100%;
         margin: 5px 0;
     }
-
 
     .left-about-heading {
         width: 50%;
@@ -1390,27 +1311,22 @@ iframe {
         background-size: cover;
     }
 
-
     .learn-more {
         text-align: center;
         padding-top: 40px;
         margin-top: 20px;
         margin-right: 400px;
-
     }
 
     .learn-more-button {
         margin-left: -50px;
     }
 
-
-
     /* Why online tutoring video section*/
 
     #why-online {
         background-color: #d7d5da;
         clear: both;
-
     }
 
     .why-online-tutoring {
@@ -1428,7 +1344,6 @@ iframe {
         width: 500px;
         height: 500px;
         margin-left: 400px;
-
     }
 
     /* Card Section*/
@@ -1437,7 +1352,6 @@ iframe {
         width: 100%;
         height: 700px;
         background-color: #ebcdbd;
-
     }
 
     .card-heading {
@@ -1479,7 +1393,6 @@ iframe {
         box-shadow: 0 40px 40px rgba(0, 0, 0, 0.2);
     }
 
-
     .card-img-top {
         height: 150px;
         width: 90%;
@@ -1489,7 +1402,7 @@ iframe {
         font-family: 'Lato',
             sans-serif;
         font-size: 25px;
-
+        font-weight: 300;
     }
 
     /* Social Links*/
@@ -1636,7 +1549,6 @@ iframe {
         background-color: #ea4c89
     }
 
-
     /*Key Benefits*/
 
     #benefits-section {
@@ -1664,7 +1576,6 @@ iframe {
         margin-top: -460px;
         padding-top: 100px;
         margin-left: 600px;
-
     }
 
     .benefits {
@@ -1678,7 +1589,6 @@ iframe {
     .benefits-icon {
         font-size: 30px;
     }
-
 
     .benefits-heading {
         font-weight: 300;
@@ -1712,7 +1622,6 @@ iframe {
         font-size: 25px;
         font-weight: 100;
         color: #000000;
-
     }
 
     .card-box {
@@ -1721,14 +1630,11 @@ iframe {
         padding-bottom: 30px;
         flex-direction: row;
         flex-wrap: nowrap;
-
     }
 
     .card {
         text-align: center;
         margin: 3rem;
-
-
     }
 
     .card-img-top {
@@ -1739,7 +1645,6 @@ iframe {
     .card-title {
         font-weight: 400;
         font-size: 25px;
-
     }
 
     .card-text {
@@ -1763,16 +1668,14 @@ iframe {
         text-align: center;
         padding-top: 30px;
         padding-bottom: 20px;
-        color: #cccccc;
-
+        color: #fff;
     }
 
     .form-text {
-        color: #F3E8E7;
+        color: #fff;
         text-align: center;
         font-size: 25px;
         font-weight: 300;
-
     }
 
     .form {
@@ -1781,7 +1684,6 @@ iframe {
         padding-top: 40px;
         padding-left: 100px;
         margin-left: -25px;
-
     }
 
     .form-control {
@@ -1794,13 +1696,11 @@ iframe {
         padding-bottom: 30px;
         margin-left: -500px;
         margin-right: 250px;
-
     }
 
     .btn-primary {
         box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, .8);
     }
-
 
     /* Sign Up Form*/
 
@@ -1808,7 +1708,6 @@ iframe {
         width: 100%;
         height: 600px;
         background-color: #d7d5da;
-
     }
 
     .signupheader {
@@ -1879,6 +1778,5 @@ iframe {
         font-size: 50px;
         text-align: center;
         padding-top: 50px;
-
     }
 }
