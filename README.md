@@ -259,7 +259,7 @@ This page will allow the user to sign up to Pocket Tutor and subscribe to the se
 
 The site is designed to be flexible, fluid, responsive and aesthetically enjoyable on all screen sizes and resolutions starting from 350px (based on [statistics for 2022](https://worship.agency/wp-content/uploads/2022/01/mobile-screen-sizes-2022.png)). To ensure better performance on mobile devices, mobile versions (smaller in size with different aspect ratios) of all hero images are provided. It was considered necessary because the images play a significant role in delivering the semantics of the website and providing the intended user experience. 
 
-![Responsiveness testing results:] [Excel] (/assets/readme/responsivenesstesting.xlsx), [Excel]]
+![Responsiveness testing results:] [Excel](/assets/readme/responsivenesstesting.xlsx), [Excel]]
 
 
 
