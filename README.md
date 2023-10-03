@@ -202,38 +202,48 @@ The navbar includes a hover-over effect to make the experience more interactive 
 
 \- \*\*Navigation bar\*\*
 
+![navbar](/assets/readme/navbar.png)
+
+
 Each page has a full responsive navigation bar at the top. It includes the Logo (which is a link to the Home page) and the links to Home, Success Stories and Signup pages. It retains an identical layout throughout the website across all devices to ensure \*\*simple and intuitive navigation\*\*. The Navbar will allow the user to reach any section of the website from any point on the website without unnecessary steps and using browser navigation buttons.             
 
 
 For mobile devices, it transforms into a compact "hamburger menu". This dropdown menu features the same items, displayed as a column on a semi-transparent background.  
 
 \- \*\*Hero image\*\*
+![heroimage](/assets/readme/heroimage.png)
 
 This section is the first thing the user sees opening each page, it is an eye-catching image for aesthetical stimulation, which also helps to deliver the page's semantics as visual associations are commonly very strong. On the Home page, it also includes an attractive, clear explanation with key selling points to help the user understand the purpose of the website.
 
 \- \*\*Why Choose Us section\*\*
+![whychooseus](/assets/readme/whychooseus.png)
 
 The ethos section will introduce the user to the concept of Pocket Tutor, as it is slightly different to the usual way tutoring works. The user will be introduced to the moto, given a little preview of the benefits of signing up to Pocket Tutor and invited to learn more by accessing the sign up page, which will book a call with the Sales Team.
 
 \- \*\*Benefits of Online Tutoring section\*\*
+![onlinebenefits](/assets/readme/benefitsofonline.png)
 
 Often, clients will choose in-person tutoring over online tutoring, this section explains the benefits of choosing online tutoring. This was deliberately presented as a video, as it reassures clients that there is a human aspect to the service. By one of the tutors presenting the benefits, potential clients are also reassured that the people working with their children have the correct experience. 
 
 \- 
 
 \*\*Our Events\*\*
+![events](/assets/readme/ourevents.png)
 
 This section is designed to promote the events that clients can attend, as part of their subscription, to support their children with enjoying learning. The events ensure that users have a reason to return to the site, in order to check the dates of events running, and to sign up to them. It gives the user increased value for their subscription and helps to widen the potential base of clients as some events will periodically be made free to attend. 
 
 \- \*\*Footer\*\*
+![footer](/assets/readme/footer.png)
 
 The Footer contains the links to the social media and allows the user to continue engagement with the company on various platforms. 
 
 \- \*\*Success Stories page\*\*
+![successstories](/assets/readme/successstories.png)
 
 This page contains a more in-depth explanation of the features of the subscription and sets out the products that clients will have access to. It also reiterates the concept of choosing online, rather than in-person tutoring and how this will benefit their family life. It also features some success stories from current users who have been supported by Pocket Tutor. This has been included to promote the services provide and to provide ‘real-life’ accounts of how the product has helped their children. In order to create a database of potential clients, users can sign up to receive a free resource at the bottom of the page. This serves as a way increase subscriptions to the site and also for users to see an example of the resources they would have access to. 
 
 \- \*\*Signup page\*\*
+![signup](/assets/readme/contactus.png)
 
 This page will allow the user to sign up to Pocket Tutor and subscribe to the service/product. The page contains the form, where the user will be asked to submit their full name and email address and to give a brief explanation of the areas that their child needs support with. 
 
