@@ -211,16 +211,19 @@ Each page has a full responsive navigation bar at the top. It includes the Logo 
 For mobile devices, it transforms into a compact "hamburger menu". This dropdown menu features the same items, displayed as a column on a semi-transparent background.  
 
 \- \*\*Hero image\*\*
+
 ![heroimage](/assets/readme/heroimage.png)
 
 This section is the first thing the user sees opening each page, it is an eye-catching image for aesthetical stimulation, which also helps to deliver the page's semantics as visual associations are commonly very strong. On the Home page, it also includes an attractive, clear explanation with key selling points to help the user understand the purpose of the website.
 
 \- \*\*Why Choose Us section\*\*
+
 ![whychooseus](/assets/readme/whychooseus.png)
 
 The ethos section will introduce the user to the concept of Pocket Tutor, as it is slightly different to the usual way tutoring works. The user will be introduced to the moto, given a little preview of the benefits of signing up to Pocket Tutor and invited to learn more by accessing the sign up page, which will book a call with the Sales Team.
 
 \- \*\*Benefits of Online Tutoring section\*\*
+
 ![onlinebenefits](/assets/readme/benefitsofonline.png)
 
 Often, clients will choose in-person tutoring over online tutoring, this section explains the benefits of choosing online tutoring. This was deliberately presented as a video, as it reassures clients that there is a human aspect to the service. By one of the tutors presenting the benefits, potential clients are also reassured that the people working with their children have the correct experience. 
@@ -228,21 +231,25 @@ Often, clients will choose in-person tutoring over online tutoring, this section
 \- 
 
 \*\*Our Events\*\*
+
 ![events](/assets/readme/ourevents.png)
 
 This section is designed to promote the events that clients can attend, as part of their subscription, to support their children with enjoying learning. The events ensure that users have a reason to return to the site, in order to check the dates of events running, and to sign up to them. It gives the user increased value for their subscription and helps to widen the potential base of clients as some events will periodically be made free to attend. 
 
 \- \*\*Footer\*\*
+
 ![footer](/assets/readme/footer.png)
 
 The Footer contains the links to the social media and allows the user to continue engagement with the company on various platforms. 
 
 \- \*\*Success Stories page\*\*
+
 ![successstories](/assets/readme/successstories.png)
 
 This page contains a more in-depth explanation of the features of the subscription and sets out the products that clients will have access to. It also reiterates the concept of choosing online, rather than in-person tutoring and how this will benefit their family life. It also features some success stories from current users who have been supported by Pocket Tutor. This has been included to promote the services provide and to provide ‘real-life’ accounts of how the product has helped their children. In order to create a database of potential clients, users can sign up to receive a free resource at the bottom of the page. This serves as a way increase subscriptions to the site and also for users to see an example of the resources they would have access to. 
 
 \- \*\*Signup page\*\*
+
 ![signup](/assets/readme/contactus.png)
 
 This page will allow the user to sign up to Pocket Tutor and subscribe to the service/product. The page contains the form, where the user will be asked to submit their full name and email address and to give a brief explanation of the areas that their child needs support with. 
@@ -252,7 +259,9 @@ This page will allow the user to sign up to Pocket Tutor and subscribe to the se
 
 The site is designed to be flexible, fluid, responsive and aesthetically enjoyable on all screen sizes and resolutions starting from 350px (based on [statistics for 2022](https://worship.agency/wp-content/uploads/2022/01/mobile-screen-sizes-2022.png)). To ensure better performance on mobile devices, mobile versions (smaller in size with different aspect ratios) of all hero images are provided. It was considered necessary because the images play a significant role in delivering the semantics of the website and providing the intended user experience. 
 
-The choice of breakpoints was based on different aspects, such as typical devices' screen sizes and the intention to provide the best possible presentation of the content for all screen sizes. 768px breakpoint is meant to hit the iPad mini; 992px is quite common to signify the transition to laptops, and, content-wise, it proved to be reasonable. 1200px is not a typical choice, but it was preferred based on the content layout. Media query for screens above 1200px also contains fixed width for many blocks, as, for the convenience of the user and maintaining design aesthetics, it was decided to stop the content from further expanding. 
+![Responsiveness testing results:] [Excel] (/assets/readme/responsivenesstesting.xlsx), [Excel]]
+
+
 
 \## Future Considerations
 
@@ -265,7 +274,7 @@ To enable higher volumes of sales, clients will need the ability to purchase thr
 
 \### Signup form processing
 
-Currently, on submission of the Sign-Up form, the data goes to the form dump, so the input is not being processed or stored. With the knowledge of SQL and Python, the input could be stored, processed, analysed and used to provide the user with a personalised quality experience.
+Currently, on submission of the Sign-Up form, the data goes to the form dump, so the input is not being processed or stored. The user is also expecting to be presented with a free resource. 
 
 
 \_\_\_

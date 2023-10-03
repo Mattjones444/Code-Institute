@@ -994,7 +994,13 @@ iframe {
         padding-top: 10px;
         padding-bottom: 30px;
         margin-left: -500px;
-        margin-right: 220px;
+        margin-right: 120px;
+    }
+
+    .form-sign-up {
+        width: 50%;
+        margin-left: 230px;
+        padding-top: 0px;
     }
 }
 
@@ -1226,7 +1232,7 @@ iframe {
     }
 
     #right-about {
-        padding-top: 30px;
+        padding-top: 50px;
         width: 33%;
         float: right;
     }
@@ -1260,7 +1266,7 @@ iframe {
         float: left;
         line-height: 20px;
         clear: both;
-        margin-bottom: 50px;
+        margin-bottom: 120px;
         font-weight: 300;
         font-size: 17px;
         letter-spacing: 0.5px;
@@ -1343,7 +1349,7 @@ iframe {
         border: 50px solid #1d2e40;
         width: 500px;
         height: 500px;
-        margin-left: 320px;
+        margin-left: 380px;
     }
 
     /* Card Section*/
@@ -1694,7 +1700,7 @@ iframe {
         text-align: center;
         padding-top: 10px;
         padding-bottom: 30px;
-        margin-left: -500px;
+        margin-left: -570px;
         margin-right: 250px;
     }
 
