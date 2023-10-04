@@ -18,7 +18,7 @@ The core purposes of the website:
 
 The website is built using HTML and CSS as a Milestone Project#1 for the Code Institute's Full Stack Developer course.  
 
-[The live website is available here]([**https://mattjones444.github.io/Code-Institute/**]())
+[The live website is available here]([https://mattjones444.github.io/Code-Institute/])
 
 \_\_\_
 
