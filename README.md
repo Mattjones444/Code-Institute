@@ -257,7 +257,7 @@ This page will allow the user to sign up to Pocket Tutor and subscribe to the se
 
 \## Responsive layout
 
-The site is designed to be flexible, fluid, responsive and aesthetically enjoyable on all screen sizes and resolutions starting from 390px. To ensure better performance on mobile devices, mobile versions (smaller in size with different aspect ratios) most of the hero images are in a smaller image format. It was considered necessary because the images play a significant role in delivering the semantics of the website and providing the intended user experience. 
+The site is designed to be flexible, fluid, responsive and aesthetically enjoyable on all screen sizes and resolutions starting from 378px. To ensure better performance on mobile devices, mobile versions (smaller in size with different aspect ratios) most of the hero images are in a smaller image format. It was considered necessary because the images play a significant role in delivering the semantics of the website and providing the intended user experience. 
 
 ![Responsiveness testing results:] [Excel](/assets/readme/responsivenesstesting.xlsx), [Excel]]
 
