@@ -134,7 +134,7 @@ li a:hover {
     padding-bottom: 60px;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     font-weight: 300;
     font-size: 17px;
     letter-spacing: 0.5px;
@@ -178,6 +178,7 @@ li a:hover {
 .learn-more {
     padding-bottom: 30px;
     margin-top: 460px;
+    margin-left: 120px;
 }
 
 hr {
@@ -711,6 +712,49 @@ iframe {
 
 /* Media Queries */
 
+@media screen and (min-width: 410px) {
+
+    .learn-more {
+        text-align: center;
+        padding-top: 40px;
+        margin-top: 450px;
+        margin-right: 50px;
+        margin-left: 130px;
+    }
+
+    .tutor-image {
+        display: block;
+        height: 200px;
+        width: 60%;
+        margin-top: -30px;
+        margin-left: 80px;
+    }
+
+    .form {
+        margin-left: -70px;
+        width: 50%;
+        margin-top: 0px;
+    }
+
+    .free-button {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        margin-left: -200px;
+    }
+}
+
+@media screen and (min-width: 436px) {
+
+    .learn-more {
+        text-align: center;
+        padding-top: 40px;
+        margin-top: 450px;
+        margin-right: 50px;
+        margin-left: 130px;
+    }
+}
+
 @media screen and (min-width: 570px) {
 
     #welcome {
@@ -778,48 +822,16 @@ iframe {
     .learn-more {
         padding-bottom: 30px;
         margin-top: 460px;
-        margin-right: 250px;
+        margin-right: 30px;
     }
 
     .learn-more-button {
-        margin-left: 190px;
+        margin-left: 30px;
         margin-bottom: 50px;
     }
 
     hr {
         display: none;
-    }
-}
-
-@media screen and (min-width: 410px) {
-
-    .learn-more {
-        text-align: center;
-        padding-top: 40px;
-        margin-top: 450px;
-        margin-right: 50px;
-        margin-left: 0px;
-    }
-
-    .tutor-image {
-        display: block;
-        height: 200px;
-        width: 60%;
-        margin-top: -40px;
-        margin-left: 120px;
-    }
-
-    .form {
-        margin-left: -70px;
-        width: 50%;
-        margin-top: 0px;
-    }
-
-    .free-button {
-        text-align: center;
-        padding-top: 10px;
-        padding-bottom: 30px;
-        margin-left: -280px;
     }
 }
 
@@ -830,12 +842,12 @@ iframe {
         padding-top: 40px;
         margin-top: 950px;
         margin-right: 500px;
-        margin-left: 70px;
+        margin-left: 180px;
     }
 
     .tutor-image {
         display: block;
-        height: 300px;
+        height: 250px;
         width: 60%;
         margin-top: -100px;
         margin-left: 130px;
@@ -853,6 +865,15 @@ iframe {
         padding-bottom: 30px;
         margin-left: -320px;
     }
+
+    iframe {
+        margin-bottom: 90px;
+        border: 50px solid #1d2e40;
+        width: 500px;
+        height: 500px;
+        margin-left: 10px;
+
+    }
 }
 
 @media screen and (min-width: 661px) {
@@ -861,8 +882,8 @@ iframe {
         text-align: center;
         padding-top: 40px;
         margin-top: 20px;
-        margin-right: 500px;
-        margin-left: 100px;
+        margin-right: 70px;
+        margin-left: 150px;
     }
 
     .hero-message {
@@ -887,6 +908,35 @@ iframe {
         margin-left: -320px;
     }
 
+    iframe {
+        margin-bottom: 90px;
+        border: 50px solid #1d2e40;
+        width: 500px;
+        height: 500px;
+        margin-left: 10px;
+
+    }
+
+    .tutor-image {
+        display: block;
+        height: 250px;
+        width: 50%;
+        margin-top: -100px;
+        margin-left: 230px;
+    }
+
+}
+
+@media screen and (min-width: 758px) {
+
+    iframe {
+        margin-bottom: 90px;
+        border: 50px solid #1d2e40;
+        width: 500px;
+        height: 500px;
+        margin-left: 90px;
+
+    }
 }
 
 @media screen and (min-width: 837px) {
@@ -915,7 +965,36 @@ iframe {
         text-align: center;
         padding-top: 10px;
         padding-bottom: 30px;
-        margin-left: -500px;
+        margin-left: -550px;
+    }
+
+    iframe {
+        margin-bottom: 90px;
+        border: 50px solid #1d2e40;
+        width: 500px;
+        height: 500px;
+        margin-left: 110px;
+
+    }
+}
+
+@media screen and (min-width: 980px) {
+
+    iframe {
+        margin-bottom: 90px;
+        border: 50px solid #1d2e40;
+        width: 500px;
+        height: 500px;
+        margin-left: 200px;
+
+    }
+
+    .tutor-image {
+        display: block;
+        height: 300px;
+        width: 60%;
+        margin-top: -150px;
+        margin-left: 190px;
     }
 }
 
@@ -927,7 +1006,7 @@ iframe {
         padding-top: 40px;
         margin-top: 20px;
         margin-right: 500px;
-        margin-left: 230px;
+        margin-left: 360px;
     }
 
     #benefits-section {
@@ -953,7 +1032,7 @@ iframe {
         height: 400px;
         width: 60%;
         margin-top: -300px;
-        margin-left: 410px;
+        margin-left: 400px;
     }
 
     .benefits {
@@ -1012,7 +1091,7 @@ iframe {
         width: 50%;
         margin-top: -420px;
         padding-top: 100px;
-        margin-left: 450px;
+        margin-left: 500px;
     }
 
     .form {
@@ -1025,7 +1104,7 @@ iframe {
         text-align: center;
         padding-top: 10px;
         padding-bottom: 30px;
-        margin-left: -500px;
+        margin-left: -400px;
         margin-right: 220px;
     }
 
@@ -1036,9 +1115,9 @@ iframe {
     .learn-more {
         text-align: center;
         padding-top: 40px;
-        margin-top: 20px;
-        margin-right: -500px;
-        margin-left: 150px;
+        margin-top: 600px;
+
+        margin-left: 450px;
     }
 
     #card-section {
@@ -1121,6 +1200,18 @@ iframe {
         margin-right: 220px;
     }
 
+}
+
+@media screen and (min-width: 1184px) {
+
+    iframe {
+        margin-bottom: 90px;
+        border: 50px solid #1d2e40;
+        width: 500px;
+        height: 500px;
+        margin-left: 280px;
+
+    }
 }
 
 
@@ -1266,7 +1357,7 @@ iframe {
         float: left;
         line-height: 20px;
         clear: both;
-        margin-bottom: 120px;
+        margin-bottom: 90px;
         font-weight: 300;
         font-size: 17px;
         letter-spacing: 0.5px;
@@ -1346,10 +1437,11 @@ iframe {
 
     iframe {
         margin-bottom: 90px;
+        margin-top: 30px;
         border: 50px solid #1d2e40;
         width: 500px;
         height: 500px;
-        margin-left: 380px;
+        margin-left: 375px;
     }
 
     /* Card Section*/
@@ -1700,7 +1792,7 @@ iframe {
         text-align: center;
         padding-top: 10px;
         padding-bottom: 30px;
-        margin-left: -570px;
+        margin-left: -500px;
         margin-right: 250px;
     }
 
@@ -1786,3 +1878,30 @@ iframe {
         padding-top: 50px;
     }
 }
+
+@media screen and (min-width: 1300px) {
+
+    .tutor-image {
+        display: block;
+        height: 550px;
+        width: 50%;
+        margin-top: -460px;
+        padding-top: 100px;
+        margin-left: 600px;
+    }
+
+    .benefits-info {
+        word-wrap: break-word;
+        font-weight: 200;
+        font-size: 20px;
+        color: #000000;
+        width: 50%;
+    }
+
+    .benefits {
+        padding-top: 30px;
+        padding-right: 50px;
+        padding-left: 0px;
+        width: 90%;
+        margin-left: -320px;
+    }

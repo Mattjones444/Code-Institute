@@ -157,7 +157,7 @@ represent strength and confidence.
 
 \#### \*\*Mischka grey\*\* 
 
-` `Cool, neutral and calm. 
+Cool, neutral and calm. 
 
 \#### \*\*Just Right\*\* 
 
@@ -184,11 +184,11 @@ As the Home Page consists of multiple colourful overlapping blocks, it was impor
 
 \#### Logo and Page Headings Gradient
 
-Pocket Tutor does not have a logo at the moment. Hence, the text logo was established. Although the font provided the style, it still looked rather bland, flat and intensively dull in default text colours and illegible or inappropriate when executed in colours.   
+Pocket Tutor has a basic logo at the moment, which still needs further work as it was made purely for the purposes of this project. Work needs to be done to make it stand out further.  
 
 \#### Buttons
 
-Each button offers a similar growing effect described above combined with a change of its background colour: it is dark blue by default, and it turns light blue when hovered over with a mouse. To provide better performance on mobile devices, it was implemented only for screens larger than 992px.
+Each button offers a similar growing effect described above combined with a change of its background colour: it is dark blue by default, and it turns light blue when hovered over with a mouse. To provide better performance on mobile devices, it was implemented only for screens larger than 978px.
 
 \#### Navbar Hover effect
 
@@ -205,7 +205,7 @@ The navbar includes a hover-over effect to make the experience more interactive 
 ![navbar](/assets/readme/navbar.png)
 
 
-Each page has a full responsive navigation bar at the top. It includes the Logo (which is a link to the Home page) and the links to Home, Success Stories and Signup pages. It retains an identical layout throughout the website across all devices to ensure \*\*simple and intuitive navigation\*\*. The Navbar will allow the user to reach any section of the website from any point on the website without unnecessary steps and using browser navigation buttons.             
+Each page has a full responsive navigation bar at the top. It includes the Logo (which is a link to the Home page) and the links to Home, Success Stories and Signup pages. It retains an identical layout throughout the website across all devices to ensure simple and intuitive navigation. The Navbar will allow the user to reach any section of the website from any point on the website without unnecessary steps and using browser navigation buttons.             
 
 
 For mobile devices, it transforms into a compact "hamburger menu". This dropdown menu features the same items, displayed as a column on a semi-transparent background.  
@@ -220,7 +220,7 @@ This section is the first thing the user sees opening each page, it is an eye-ca
 
 ![whychooseus](/assets/readme/whychooseus.png)
 
-The ethos section will introduce the user to the concept of Pocket Tutor, as it is slightly different to the usual way tutoring works. The user will be introduced to the moto, given a little preview of the benefits of signing up to Pocket Tutor and invited to learn more by accessing the sign up page, which will book a call with the Sales Team.
+The ethos section will introduce the user to the concept of Pocket Tutor, as it is slightly different to the usual way tutoring works. The user will be introduced to the concept, given a little preview of the benefits of signing up to Pocket Tutor and invited to learn more by accessing the sign up page, which will book a call with the Sales Team.
 
 \- \*\*Benefits of Online Tutoring section\*\*
 
@@ -257,7 +257,7 @@ This page will allow the user to sign up to Pocket Tutor and subscribe to the se
 
 \## Responsive layout
 
-The site is designed to be flexible, fluid, responsive and aesthetically enjoyable on all screen sizes and resolutions starting from 350px (based on [statistics for 2022](https://worship.agency/wp-content/uploads/2022/01/mobile-screen-sizes-2022.png)). To ensure better performance on mobile devices, mobile versions (smaller in size with different aspect ratios) of all hero images are provided. It was considered necessary because the images play a significant role in delivering the semantics of the website and providing the intended user experience. 
+The site is designed to be flexible, fluid, responsive and aesthetically enjoyable on all screen sizes and resolutions starting from 390px. To ensure better performance on mobile devices, mobile versions (smaller in size with different aspect ratios) most of the hero images are in a smaller image format. It was considered necessary because the images play a significant role in delivering the semantics of the website and providing the intended user experience. 
 
 ![Responsiveness testing results:] [Excel](/assets/readme/responsivenesstesting.xlsx), [Excel]]
 
@@ -274,7 +274,7 @@ To enable higher volumes of sales, clients will need the ability to purchase thr
 
 \### Signup form processing
 
-Currently, on submission of the Sign-Up form, the data goes to the form dump, so the input is not being processed or stored. The user is also expecting to be presented with a free resource. 
+Currently, on submission of the Sign-Up form, the data goes to the form dump, so the input is not being processed or stored. The user is also expecting to be presented with a free resource. Further learning on the course will allow me to understand the code needed to submit the users information and initiate the free resource download. 
 
 
 \_\_\_
