@@ -60,23 +60,23 @@ The website is built using HTML and CSS as a Milestone Project#1 for the Code In
 
 \- Grabs the user's attention and grips it with bold design
 
-`    `#### User Goal:
+#### User Goal:
 
-`    `>   - Understand the main purpose of the website.
+   - Understand the main purpose of the website.
 
-`    `>   - Preview all the sections of the website.
+  - Preview all the sections of the website.
 
-`    `>   - Easily navigate and interact with the website.
+   - Easily navigate and interact with the website.
 
-`    `#### Website Goal:
+#### Website Goal:
 
-`    `>   - Convey selling points and ethos.
+   - Convey selling points and ethos.
 
-`    `>   - Interest and engage the user.
+   - Interest and engage the user.
 
-`    `>   - Present the user a preview of all content sections.
+   - Present the user a preview of all content sections.
 
-`    `>   - Initiate future engagement, such as following on social media and finding out dates of events that are running. 
+   - Initiate future engagement, such as following on social media and finding out dates of events that are running. 
 
 \### Success Stories Page
 
@@ -86,35 +86,35 @@ The website is built using HTML and CSS as a Milestone Project#1 for the Code In
 
 \- Allows them to preview a resource by entering their contact details.
 
-`    `#### User Goal:
+#### User Goal:
 
-`    `>   - Provide key elements of the product and services.
+   - Provide key elements of the product and services.
 
-`    `>   - Find out more about how tutoring can be effectively employed.
+   - Find out more about how tutoring can be effectively employed.
 
-`    `>   - Receive a free resource as an example of the product.
+   - Receive a free resource as an example of the product.
 
-`    `#### Website Goal:
+#### Website Goal:
 
-`    `>   - Ensures clients are clear on the product and service offering.
+   - Ensures clients are clear on the product and service offering.
 
-`    `>   - Gain the users trust and increases the credibility of the product.
+   - Gain the users trust and increases the credibility of the product.
 
-`    `>   - Convince the user to join.
+   - Convince the user to join.
 
-`    `>   - Attain contact details for potential sales.
+   - Attain contact details for potential sales.
 
 \### Signup Page
 
 \- Allows the user to join the club and get access to special programs and discounts.
 
-`    `#### User Goal:
+#### User Goal:
 
-`    `>   - Join the club to access unique content and special offers.
+   - Join the club to access unique content and special offers.
 
-`    `#### Website Goal:
+#### Website Goal:
 
-`    `>   - Provide a simple and accessible way to join the club.
+   - Provide a simple and accessible way to join the club.
 
 \## Wireframes
 
